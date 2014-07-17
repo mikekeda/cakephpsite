@@ -48,7 +48,8 @@ $CompanyName = "Header";
 					echo $this->Html->link(__('Logout', true), array('controller'=>'users', 'action'=>'logout'), array('class' => 'link'));
 				} else {
 				   // the user is not logged in
-					echo $this->Html->link(__('Login', true), array('controller'=>'users', 'action'=>'login'), array('class' => 'link'));
+					echo $this->Html->link(__('Sign up', true), array('controller'=>'users', 'action'=>'signup'), array('class' => 'link'));
+					echo $this->Html->link(__('Log in', true), array('controller'=>'users', 'action'=>'login'), array('class' => 'link'));
 				}
 			?>
 		</div>
