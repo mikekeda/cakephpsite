@@ -2,12 +2,10 @@
 
 class PostsController extends AppController {
 
-	public $name = 'Posts';
-
 	public $components = array('Paginator');
 
 	public $paginate = array(
-		'limit' => 5
+		'limit' => 10
 	);
 
 	public function beforeFilter() {
