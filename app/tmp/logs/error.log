@@ -1893,3 +1893,95 @@ Stack Trace:
 #3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-07-17 11:52:05 Error: Fatal Error (64): Cannot redeclare PostsController::$paginate in [/var/www/firstsite2/app/Controller/PostsController.php, line 14]
+2014-07-17 11:52:05 Error: [FatalErrorException] Cannot redeclare PostsController::$paginate
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/firsts...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/firsts...', 14, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/firsts...', 14, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 11:52:28 Error: Fatal Error (64): Cannot redeclare PostsController::$paginate in [/var/www/firstsite2/app/Controller/PostsController.php, line 14]
+2014-07-17 11:52:28 Error: [FatalErrorException] Cannot redeclare PostsController::$paginate
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/firsts...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/firsts...', 14, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/firsts...', 14, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 12:02:00 Error: [MissingModelException] ’Posts’
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/Controller/PostsController.php(62): PaginatorComponent->paginate('???Posts???')
+#1 [internal function]: PostsController->index()
+#2 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-17 12:02:19 Error: [MissingModelException] Posts
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/Controller/PostsController.php(62): PaginatorComponent->paginate('Posts')
+#1 [internal function]: PostsController->index()
+#2 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-17 12:11:37 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Post/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Post/index.ctp',
+)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-17 12:12:15 Error: [MissingModelException] Posts
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/Controller/PostsController.php(64): PaginatorComponent->paginate('Posts')
+#1 [internal function]: PostsController->index()
+#2 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-17 12:15:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/firstsite2/app/Controller/PostsController.php, line 64]
+2014-07-17 12:15:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 64, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 64, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 12:23:12 Error: Fatal Error (4): syntax error, unexpected 'page’' (T_STRING), expecting ')' in [/var/www/firstsite2/app/View/Posts/index.ctp, line 77]
+2014-07-17 12:23:12 Error: [FatalErrorException] syntax error, unexpected 'page’' (T_STRING), expecting ')'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 77, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 77, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 12:31:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [/var/www/firstsite2/app/View/Posts/index.ctp, line 79]
+2014-07-17 12:31:14 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 79, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 79, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -2,6 +2,14 @@
 
 class PostsController extends AppController {
 
+	public $name = 'Posts';
+
+	public $components = array('Paginator');
+
+	public $paginate = array(
+		'limit' => 5
+	);
+
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow('index', 'view');
@@ -35,7 +43,7 @@ class PostsController extends AppController {
 	}
 
 	function index($id = 0) {
-		$articlesonpage = 10;
+/*		$articlesonpage = 10;
 		$this->loadModel('User');
 		$posts = $this->Post->find('all',array(
           'limit'=>$articlesonpage,
@@ -44,6 +52,14 @@ class PostsController extends AppController {
 		$totalpages = ceil($this->Post->find('count') / $articlesonpage);
 		$this->set('curentpage', $id);
 		$this->set('totalpages', $totalpages);
+		foreach ( $posts as &$post ) {
+        	$post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
+		}
+		$this->set('posts', $posts);*/
+
+		$this->loadModel('User');
+		$this->Paginator->settings = $this->paginate;
+		$posts = $this->Paginator->paginate('Post');
 		foreach ( $posts as &$post ) {
         	$post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
 		}
