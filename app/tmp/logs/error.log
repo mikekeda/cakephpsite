@@ -1997,3 +1997,453 @@ Stack Trace:
 #3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-07-17 14:01:09 Error: Fatal Error (1): Call to a member function labelTag() on a non-object in [/var/www/firstsite2/app/View/Users/signup.ctp, line 8]
+2014-07-17 14:01:09 Error: [FatalErrorException] Call to a member function labelTag() on a non-object
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 8, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 8, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 14:04:21 Error: Fatal Error (1): Call to undefined method View::uploadFiles() in [/var/www/firstsite2/app/View/Users/signup.ctp, line 10]
+2014-07-17 14:04:21 Error: [FatalErrorException] Call to undefined method View::uploadFiles()
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/firsts...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/firsts...', 10, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/firsts...', 10, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 14:26:07 Error: [MissingComponentException] Component class JqImgcropComponent could not be found.
+Exception Attributes: array (
+  'class' => 'JqImgcropComponent',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('JqImgcrop', Array)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-17 14:28:33 Error: [MissingComponentException] Component class JqImgcropComponent could not be found.
+Exception Attributes: array (
+  'class' => 'JqImgcropComponent',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('JqImgcrop', Array)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-17 14:28:35 Error: [MissingComponentException] Component class JqImgcropComponent could not be found.
+Exception Attributes: array (
+  'class' => 'JqImgcropComponent',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('JqImgcrop', Array)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-17 14:29:05 Error: Fatal Error (1): Class 'Helper' not found in [/var/www/firstsite2/app/View/Helper/CropimageHelper.php, line 2]
+2014-07-17 14:29:05 Error: [FatalErrorException] Class 'Helper' not found
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Helper' ...', '/var/www/firsts...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Helper' ...', '/var/www/firsts...', 2, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Helper' ...', '/var/www/firsts...', 2, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 14:31:22 Error: Fatal Error (1): Class 'Helper' not found in [/var/www/firstsite2/app/View/Helper/CropimageHelper.php, line 2]
+2014-07-17 14:31:22 Error: [FatalErrorException] Class 'Helper' not found
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Helper' ...', '/var/www/firsts...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Helper' ...', '/var/www/firsts...', 2, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Helper' ...', '/var/www/firsts...', 2, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 14:32:24 Error: Fatal Error (1): Class 'Helper' not found in [/var/www/firstsite2/app/View/Helper/CropimageHelper.php, line 2]
+2014-07-17 14:32:24 Error: [FatalErrorException] Class 'Helper' not found
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Helper' ...', '/var/www/firsts...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Helper' ...', '/var/www/firsts...', 2, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Helper' ...', '/var/www/firsts...', 2, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 14:33:40 Error: [MissingHelperException] Helper class CropimageHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CropimageHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(886): HelperCollection->load('Cropimage', Array)
+#1 /var/www/firstsite2/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/firstsite2/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(UsersController))
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-17 14:36:03 Error: [MissingHelperException] Helper class GravatarHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GravatarHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(886): HelperCollection->load('Gravatar', Array)
+#1 /var/www/firstsite2/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/firstsite2/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(UsersController))
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-17 14:55:49 Error: Fatal Error (4): syntax error, unexpected 'CakePlugin' (T_STRING), expecting function (T_FUNCTION) in [/var/www/firstsite2/app/Controller/UsersController.php, line 4]
+2014-07-17 14:55:49 Error: [FatalErrorException] syntax error, unexpected 'CakePlugin' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 4, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 4, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 14:58:29 Error: [MissingHelperException] Helper class GravatarHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GravatarHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(886): HelperCollection->load('Gravatar', Array)
+#1 /var/www/firstsite2/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/firstsite2/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(UsersController))
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-17 15:06:46 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(10): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:08:41 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(10): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:08:42 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(10): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:10:43 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(10): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:11:10 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(10): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:14:05 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(11): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:15:14 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MediaHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Media')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Media')
+#2 /var/www/firstsite2/app/View/Users/signup.ctp(10): View->__get('Media')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-17 15:26:57 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/var/www/firstsite2/app/View/Users/signup.ctp, line 12]
+2014-07-17 15:26:57 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 15:27:13 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/firstsite2/app/View/Users/signup.ctp, line 10]
+2014-07-17 15:27:13 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 10, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 10, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 16:57:30 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [/var/www/firstsite2/app/Controller/UsersController.php, line 63]
+2014-07-17 16:57:30 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 63, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 63, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 16:57:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/var/www/firstsite2/app/View/Users/signup.ctp, line 11]
+2014-07-17 16:57:44 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 16:58:05 Error: [MissingPluginException] Plugin UploadPack could not be found.
+Exception Attributes: array (
+  'plugin' => 'UploadPack',
+)
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Core/App.php(365): CakePlugin::path('UploadPack')
+#1 /var/www/firstsite2/lib/Cake/Core/App.php(226): App::pluginPath('UploadPack')
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(547): App::path('Model/Behavior', 'UploadPack')
+#3 [internal function]: App::load('UploadBehavior')
+#4 [internal function]: spl_autoload_call('UploadBehavior')
+#5 /var/www/firstsite2/lib/Cake/Model/BehaviorCollection.php(120): class_exists('UploadBehavior')
+#6 /var/www/firstsite2/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('UploadPack.Uplo...', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(747): BehaviorCollection->init('User', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 /var/www/firstsite2/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#10 /var/www/firstsite2/lib/Cake/View/Helper/FormHelper.php(164): ClassRegistry::init(Array)
+#11 /var/www/firstsite2/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('User')
+#12 /var/www/firstsite2/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('User', 'key')
+#13 /var/www/firstsite2/app/View/Users/signup.ctp(4): FormHelper->create('User')
+#14 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#15 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#16 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#17 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#18 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#19 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#20 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2014-07-17 16:58:49 Error: Fatal Error (1): Call to a member function file() on a non-object in [/var/www/firstsite2/app/View/Users/signup.ctp, line 10]
+2014-07-17 16:58:49 Error: [FatalErrorException] Call to a member function file() on a non-object
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 10, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 10, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 17:33:04 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/firstsite2/app/View/Users/signup.ctp, line 4]
+2014-07-17 17:33:04 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 4, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 4, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 17:39:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:39:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:39:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:46:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:47:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:47:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:48:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/cake_logo.png
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-17 17:49:38 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 48]
+2014-07-17 17:49:38 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /firstsite2/users/view/43
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 48, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 48, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-17 17:49:54 Error: [MissingHelperException] Helper class UploadHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UploadHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/view/43
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Upload')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Upload')
+#2 /var/www/firstsite2/app/View/Layouts/default.ctp(47): View->__get('Upload')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(542): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

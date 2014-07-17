@@ -1,10 +1,13 @@
 <!-- File: /app/views/posts/Edit.ctp  (edit links added) -->
 
 <div class="users form">
-<?php echo $this->Form->create('User'); ?>
+<?php echo $this->Form->create('User', array('type' => 'file')); ?>
     <fieldset>
         <legend><?php echo __('Sign up'); ?></legend>
         <?php
+        /*echo $this->Form->label('File/image', 'Image');
+        echo $this->Form->file('File/image');*/
+        echo $this->Form->file('User.avatar');
         echo $this->Form->input('username', array('label' => 'Usernames cannot be changed!'));
         echo $this->Form->input('email');
         echo $this->Form->input('name');
@@ -14,17 +17,9 @@
          
  
         echo $this->Form->input('role', array(
-            'options' => array('admin', 'editor', 'user', 'banned')
+            'options' => array('admin' => 'admin', 'editor' => 'editor', 'user' => 'user', 'banned' => 'banned')
         ));
         echo $this->Form->submit('Sign up', array('class' => 'form-submit',  'title' => 'Click here to Sign up') );
 ?>
     </fieldset>
-<?php echo $this->Form->end(); ?>
 </div>
-<?php
-echo $this->Html->link( "Return to Dashboard",   array('action'=>'index') );
-?>
-<br/>
-<?php
-echo $this->Html->link( "Logout",   array('action'=>'logout') );
-?>

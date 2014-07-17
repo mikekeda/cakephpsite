@@ -13,7 +13,7 @@
          
  
         echo $this->Form->input('role', array(
-            'options' => array( 'admin' => 'admin', 'author' => 'author')
+            'options' => array('admin' => 'admin', 'editor' => 'editor', 'user' => 'user', 'banned' => 'banned')
         ));
         echo $this->Form->submit('Edit User', array('class' => 'form-submit',  'title' => 'Click here to add the user') );
 ?>

@@ -1,8 +1,26 @@
 <?php
 class UsersController extends AppController {
+
+	var $actsAs = array(
+		'UploadPack.Upload' => array(
+			'avatar' => array(
+				'styles' => array(
+					'thumb' => '80x80'
+				)
+			)
+		)
+	);
+
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow('login', 'logout', 'signup');
+	}
+
+	public function canUploadMedias($model, $id){
+	    if($model == 'User' & $id = $this->Session->read('Auth.User.id')){
+	        return true; // Everyone can edit the medias for their own record
+	    }
+	    return $this->Session->read('Auth.User.role') == 'admin'; // Only admins can upload medias for everything else
 	}
 
 	public function index() {
@@ -41,14 +59,19 @@ class UsersController extends AppController {
 	}
 
 	public function signup() {
-		if ($this->request->is('post')) {
+
+		$helpers = array('Form', 'UploadPack.Upload');
+
+		//if ($this->request->is('post')) {
+		if (!empty($this->data)) {
 			$this->User->create();
-			if ($this->User->save($this->request->data)) {
-				$this->Session->setFlash(__('The user has been saved'));
+			if ($this->User->save($this->data)) {
+				$this->Session->setFlash(__('Welcome'));
+				$this->Auth->login();
 				return $this->redirect(array('action' => 'index'));
 			}
 			$this->Session->setFlash(
-			__('The user could not be saved. Please, try again.')
+			__('Please, try again.')
 			);
 		}
 	}

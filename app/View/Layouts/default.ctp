@@ -43,6 +43,10 @@ $CompanyName = "Header";
 			<p><?php echo $this->Html->link("Add Post", array('action' => 'add'), array('class' => 'link')); ?></p>
 			<?php
 				if($this->Session->read('Auth.User.username')) {
+					debug($this->Session->read('Auth.User.avatar_file_name'));
+					echo $this->Upload->uploadImage('Auth.User', 'User.avatar', array('style' => 'thumb'));
+					echo $this->Html->image('cake_logo.png', array('alt' => 'CakePHP'));
+					echo $this->Html->image('cake_logo.png', array('alt' => $this->Session->read('Auth.User.username')));
 					echo $this->Html->link(__($this->Session->read('Auth.User.username'), true), array('controller'=>'users', 'action' => 'view', $this->Session->read('Auth.User.id')), array('class' => 'link'));
 				   // user is logged in, show logout..user menu etc
 					echo $this->Html->link(__('Logout', true), array('controller'=>'users', 'action'=>'logout'), array('class' => 'link'));

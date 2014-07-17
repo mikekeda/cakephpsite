@@ -3,6 +3,18 @@ App::uses('AppModel', 'Model');
 App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 
 class User extends AppModel {
+
+	var $name = 'User';
+	var $actsAs = array(
+		'UploadPack.Upload' => array(
+			'avatar' => array(
+				'styles' => array(
+					'thumb' => '80x80'
+				)
+			)
+		)
+	);
+
 	public $validate = array(
 		'username' => array(
 			'required' => array(
@@ -45,6 +57,25 @@ class User extends AppModel {
 				'message' => 'Please enter a valid role',
 				'allowEmpty' => false
 			)
+		),
+
+		'attachment' => array(
+			/*'default_url' => '/app/webroot/upload/users/index.jpeg',*/
+			'notEmpty' => array(
+                'allowEmpty' => true
+            ),
+			'maxSize' => array(
+				'rule' => array('attachmentMaxSize', 1048576),
+				'message' => "Avatar can't be larger than 1MB"
+			),
+			'minSize' => array(
+				'rule' => array('attachmentMinSize', 1024),
+				'message' => "Avatar can't be smaller than 1KB"
+			),
+			'image' => array(
+				'rule' => array('attachmentContentType', 'image/jpeg', 'image/png'),
+				'message' => 'Only jpegs or png please'
+			),
 		)
 	);
 
