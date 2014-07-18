@@ -24,8 +24,12 @@
             <td style="text-align: center;"><?php echo $this->Time->niceShort($user['User']['modified']); ?></td>
             <td style="text-align: center;"><?php echo $user['User']['role']; ?></td>
         </tr>
-        <?php unset($user); ?>
+      
     </tbody>
 </table>
 </div>               
-<?php echo $this->Html->link( "Add A New User.",   array('action'=>'add'),array('escape' => false) ); ?>
+<?php echo $this->Html->link( "Add A New User.",   array('action'=>'add'),array('escape' => false)); ?>
+<br>
+<?php $path = $this->Path->pathtoavatar($user['User'], 'thumb'); ?>
+<?php echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username'))); ?>
+<?php unset($user); ?>

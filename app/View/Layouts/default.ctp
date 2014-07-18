@@ -15,7 +15,7 @@
  * @since         CakePHP(tm) v 0.10.0.1076
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
+App::import('Controller', 'users');
 $CompanyName = "Header";
 ?>
 <!DOCTYPE html>
@@ -49,7 +49,9 @@ $CompanyName = "Header";
 					$filename = substr($filename, 0, $pos) . '_thumb' . substr($filename, $pos);
 					$path = '/app/webroot/upload/users/' . $this->Session->read('Auth.User.id') . '/' . $filename;
 
-					$this->requestAction(array('controller' => 'users', 'action' => 'pathtoavatar'), array('pass' => array($this->Session->read('Auth.User.id'), 'thumb')));
+					/*$path = $this->requestAction(array('controller' => 'users', 'action' => 'pathtoavatar'));*/
+
+					/*$this->requestAction(array('controller' => 'users', 'action' => 'pathtoavatar'), array('pass' => array($this->Session->read('Auth.User.id'), 'thumb')));*/
 
 					echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username')));
 

@@ -1,7 +1,7 @@
 <?php
 class UsersController extends AppController {
 
-	public $helpers = array('Form', 'UploadPack.Upload');
+	public $helpers = array('Form', 'UploadPack.Upload', 'Path');
 
 	var $actsAs = array(
 		'UploadPack.Upload' => array(
@@ -66,6 +66,15 @@ class UsersController extends AppController {
 
 		//if ($this->request->is('post')) {
 		if (!empty($this->data)) {
+/*			debug($this->data);
+			debug($this->data['User']['avatar']['name']);
+
+			$filename = $this->data['User']['avatar']['name'];
+			$pos = strrpos($filename, '.');
+			$filename = substr($filename, 0, $pos) . '_thumb' . substr($filename, $pos);
+			$this->request->data['User']['avatar']['name'] = '/app/webroot/upload/users/' . $this->User->id . '/' . $filename;
+			debug($this->data['User']['avatar']['name']);*/
+
 			$this->User->create();
 			if ($this->User->save($this->data)) {
 				$this->Session->setFlash(__('Welcome'));
@@ -130,19 +139,6 @@ class UsersController extends AppController {
 			return true;
 		}
 		return parent::isAuthorized($user);
-	}
-
-	public function pathtoavatar($id, $filetype) {
-		$this->User->id = $id;
-		if (!$this->User->exists()) {
-			$filename = $this->User->avatar_file_name;
-			$pos = strrpos($filename, '.');
-			$filename = substr($filename, 0, $pos) . '_' . $filetype . substr($filename, $pos);
-			$path = '/app/webroot/upload/users/' . $this->User->id . '/' . $filename;
-			return $path;
-		}
-		throw new NotFoundException(__('Invalid user'));
-
 	}
 
 }
