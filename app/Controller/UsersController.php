@@ -1,6 +1,8 @@
 <?php
 class UsersController extends AppController {
 
+	public $helpers = array('Form', 'UploadPack.Upload');
+
 	var $actsAs = array(
 		'UploadPack.Upload' => array(
 			'avatar' => array(
@@ -130,6 +132,18 @@ class UsersController extends AppController {
 		return parent::isAuthorized($user);
 	}
 
+	public function pathtoavatar($id, $filetype) {
+		$this->User->id = $id;
+		if (!$this->User->exists()) {
+			$filename = $this->User->avatar_file_name;
+			$pos = strrpos($filename, '.');
+			$filename = substr($filename, 0, $pos) . '_' . $filetype . substr($filename, $pos);
+			$path = '/app/webroot/upload/users/' . $this->User->id . '/' . $filename;
+			return $path;
+		}
+		throw new NotFoundException(__('Invalid user'));
+
+	}
 
 }
 

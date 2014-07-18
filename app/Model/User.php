@@ -10,7 +10,8 @@ class User extends AppModel {
 			'avatar' => array(
 				'styles' => array(
 					'thumb' => '80x80'
-				)
+				)/*,
+				'path' => 'img/users'*/
 			)
 		)
 	);
