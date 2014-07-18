@@ -59,7 +59,7 @@
 <article>
   <h3><?php echo $this->Html->link($post['Post']['title'], array('action' => 'view', $post['Post']['id']));?></h3>
   <p><small>
-    Autor: <?php echo $this->Html->link(__($post['Post']['owner']['User']['username'], true), array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>
+    Autor: <?php echo $this->Html->link(__($post['User']['username'], true), array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>
     Created: <?php echo $post['Post']['created']?>
     <?php echo $this->Html->link(
                 'Delete',
@@ -73,6 +73,8 @@
   <p><small><?php echo $this->Html->link("Read More", array('action' => 'view', $post['Post']['id']));?></small></p>
 </article>
 <?php endforeach; ?>
+
+<?php debug($post); ?>
 
 <?php echo $this->Paginator->prev(' << ' . __('previous'), array(), null, array('class' => 'prev disabled')); ?>
 <?php echo $this->Paginator->numbers(); ?>

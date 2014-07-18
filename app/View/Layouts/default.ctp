@@ -44,15 +44,7 @@ $CompanyName = "Header";
 			<?php
 				if($this->Session->read('Auth.User.username')) {
 
-					$filename = $this->Session->read('Auth.User.avatar_file_name');
-					$pos = strrpos($filename, '.');
-					$filename = substr($filename, 0, $pos) . '_thumb' . substr($filename, $pos);
-					$path = '/app/webroot/upload/users/' . $this->Session->read('Auth.User.id') . '/' . $filename;
-
-					/*$path = $this->requestAction(array('controller' => 'users', 'action' => 'pathtoavatar'));*/
-
-					/*$this->requestAction(array('controller' => 'users', 'action' => 'pathtoavatar'), array('pass' => array($this->Session->read('Auth.User.id'), 'thumb')));*/
-
+					$path = $this->Path->pathtoavatar($this->Session->read('Auth.User'), 'thumb');
 					echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username')));
 
 					echo $this->Html->link(__($this->Session->read('Auth.User.username'), true), array('controller'=>'users', 'action' => 'view', $this->Session->read('Auth.User.id')), array('class' => 'link'));

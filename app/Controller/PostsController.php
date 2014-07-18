@@ -58,9 +58,9 @@ class PostsController extends AppController {
 		$this->loadModel('User');
 		$this->Paginator->settings = $this->paginate;
 		$posts = $this->Paginator->paginate('Post');
-		foreach ( $posts as &$post ) {
+/*		foreach ( $posts as &$post ) {
         	$post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
-		}
+		}*/
 		$this->set('posts', $posts);
     }
 

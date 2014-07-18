@@ -3,27 +3,17 @@ class UsersController extends AppController {
 
 	public $helpers = array('Form', 'UploadPack.Upload', 'Path');
 
-	var $actsAs = array(
-		'UploadPack.Upload' => array(
-			'avatar' => array(
-				'styles' => array(
-					'thumb' => '80x80'
-				)
-			)
-		)
-	);
-
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow('login', 'logout', 'signup');
 	}
 
-	public function canUploadMedias($model, $id){
+/*	public function canUploadMedias($model, $id){
 	    if($model == 'User' & $id = $this->Session->read('Auth.User.id')){
 	        return true; // Everyone can edit the medias for their own record
 	    }
 	    return $this->Session->read('Auth.User.role') == 'admin'; // Only admins can upload medias for everything else
-	}
+	}*/
 
 	public function index() {
 		$this->User->recursive = 0;
@@ -66,15 +56,6 @@ class UsersController extends AppController {
 
 		//if ($this->request->is('post')) {
 		if (!empty($this->data)) {
-/*			debug($this->data);
-			debug($this->data['User']['avatar']['name']);
-
-			$filename = $this->data['User']['avatar']['name'];
-			$pos = strrpos($filename, '.');
-			$filename = substr($filename, 0, $pos) . '_thumb' . substr($filename, $pos);
-			$this->request->data['User']['avatar']['name'] = '/app/webroot/upload/users/' . $this->User->id . '/' . $filename;
-			debug($this->data['User']['avatar']['name']);*/
-
 			$this->User->create();
 			if ($this->User->save($this->data)) {
 				$this->Session->setFlash(__('Welcome'));
@@ -108,7 +89,8 @@ class UsersController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('The user has been saved'));
-				return $this->redirect(array('action' => 'index'));
+				$this->Session->write('Auth', $this->User->read(null, $this->Auth->User('id')));
+				return $this->redirect(array('action' => 'view', $this->User->id));
 			}
 			$this->Session->setFlash(
 			__('The user could not be saved. Please, try again.')

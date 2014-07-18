@@ -27,9 +27,30 @@
       
     </tbody>
 </table>
+
+<?php foreach ($user['posts'] as $post): ?>
+<article>
+  <h3><?php echo $this->Html->link($post['title'], array('action' => 'view', $post['id']));?></h3>
+  <p><small>
+    Autor: <?php echo $this->Html->link(__($user['User']['username'], true), array('controller'=>'users', 'action' => 'view', $post['user_id']));?>
+    Created: <?php echo $post['created']?>
+    <?php echo $this->Html->link(
+                'Delete',
+                array('action' => 'delete', $post['id']),
+                null,
+                'Are you sure?'
+            )?>
+            <?php echo $this->Html->link('Edit', array('action' => 'edit', $post['id']));?>
+    </small></p>
+  <p><?php echo $this->Text->truncate($post['body'], 250); ?></p>
+  <p><small><?php echo $this->Html->link("Read More", array('action' => 'view', $post['id']));?></small></p>
+</article>
+<?php endforeach; ?>
+
 </div>               
 <?php echo $this->Html->link( "Add A New User.",   array('action'=>'add'),array('escape' => false)); ?>
 <br>
+
 <?php $path = $this->Path->pathtoavatar($user['User'], 'thumb'); ?>
 <?php echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username'))); ?>
 <?php unset($user); ?>

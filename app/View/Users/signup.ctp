@@ -7,7 +7,7 @@
         <?php
         /*echo $this->Form->label('File/image', 'Image');
         echo $this->Form->file('File/image');*/
-        echo $this->Form->file('User.avatar');
+        echo $this->Form->file('avatar');
         echo $this->Form->input('username', array('label' => 'Usernames cannot be changed!'));
         echo $this->Form->input('email');
         echo $this->Form->input('name');

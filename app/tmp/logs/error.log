@@ -7906,3 +7906,1195 @@ Stack Trace:
 #1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-07-18 14:01:09 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/firstsite2/app/Controller/AppController.php, line 34]
+2014-07-18 14:01:09 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /firstsite2/users/edit/61
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 34, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 34, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 14:02:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:05:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:05:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:06:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:18:49 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/62/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:29:57 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/62/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:30:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/63/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:30:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/63/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:33:52 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/65/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:37:32 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/65/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:37:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/65/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:37:44 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/65/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:37:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/65/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:38:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:38:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:38:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:38:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:39:47 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:39:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:40:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:40:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:41:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:42:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:42:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:44:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:44:37 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:44:41 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('User')
+#2 /var/www/firstsite2/app/View/Users/edit.ctp(22): View->__get('User')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 14:44:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:45:47 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:46:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:46:39 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:46:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:47:13 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:47:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:47:18 Error: Fatal Error (1): Call to undefined method View::renewUserSession() in [/var/www/firstsite2/app/View/Users/edit.ctp, line 22]
+2014-07-18 14:47:18 Error: [FatalErrorException] Call to undefined method View::renewUserSession()
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/firsts...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/firsts...', 22, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/firsts...', 22, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 14:47:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:48:41 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('User')
+#2 /var/www/firstsite2/app/View/Users/edit.ctp(22): View->__get('User')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 14:48:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:49:06 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/firstsite2/app/View/Users/edit.ctp, line 22]
+2014-07-18 14:49:06 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 22, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 22, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 14:49:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:49:20 Error: Fatal Error (1): Call to undefined method View::read() in [/var/www/firstsite2/app/View/Users/edit.ctp, line 22]
+2014-07-18 14:49:20 Error: [FatalErrorException] Call to undefined method View::read()
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/firsts...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/firsts...', 22, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/firsts...', 22, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 14:49:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:49:30 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:49:48 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Auth')
+#2 /var/www/firstsite2/app/View/Users/edit.ctp(22): View->__get('Auth')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 14:49:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:51:25 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 14:53:35 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-18 14:55:19 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('1')
+#1 /var/www/firstsite2/app/Controller/UsersController.php(112): Controller->redirect(Array, '1')
+#2 [internal function]: UsersController->edit('1')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-18 14:56:55 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in [/var/www/firstsite2/app/Controller/UsersController.php, line 112]
+2014-07-18 14:56:55 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 112)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 112, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 112, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 15:04:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `firstsi...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/Database/Mysql.php(411): DboSource->execute('UPDATE `firstsi...')
+#3 /var/www/firstsite2/lib/Cake/Model/Model.php(1823): Mysql->update(Object(User), Array, Array)
+#4 /var/www/firstsite2/app/Controller/UsersController.php(99): Model->save(Array)
+#5 [internal function]: UsersController->edit('1')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 15:05:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `firstsi...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/Database/Mysql.php(411): DboSource->execute('UPDATE `firstsi...')
+#3 /var/www/firstsite2/lib/Cake/Model/Model.php(1823): Mysql->update(Object(User), Array, Array)
+#4 /var/www/firstsite2/app/Controller/UsersController.php(99): Model->save(Array)
+#5 [internal function]: UsersController->edit('1')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 15:06:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `firstsi...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/Database/Mysql.php(411): DboSource->execute('UPDATE `firstsi...')
+#3 /var/www/firstsite2/lib/Cake/Model/Model.php(1823): Mysql->update(Object(User), Array, Array)
+#4 /var/www/firstsite2/app/Controller/UsersController.php(99): Model->save(Array)
+#5 [internal function]: UsersController->edit('1')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 15:09:22 Error: Fatal Error (1): Cannot access empty property in [/var/www/firstsite2/lib/Cake/View/View.php, line 856]
+2014-07-18 15:09:22 Error: [FatalErrorException] Cannot access empty property
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/firsts...', 856)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 15:26:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 15:26:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `firstsi...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/Database/Mysql.php(411): DboSource->execute('UPDATE `firstsi...')
+#3 /var/www/firstsite2/lib/Cake/Model/Model.php(1823): Mysql->update(Object(User), Array, Array)
+#4 /var/www/firstsite2/app/Controller/UsersController.php(90): Model->save(Array)
+#5 [internal function]: UsersController->edit('1')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 15:27:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 15:28:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 15:30:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.avatar_file_name' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(173): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(44): UploadBehavior->_prepareToDeleteFiles(Object(User), 'avatar', true)
+#8 [internal function]: UploadBehavior->beforeSave(Object(User), Array)
+#9 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#12 /var/www/firstsite2/lib/Cake/Model/Model.php(1775): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /var/www/firstsite2/app/Controller/UsersController.php(90): Model->save(Array)
+#14 [internal function]: UsersController->edit('1')
+#15 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#18 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-18 15:32:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.avatar_file_name' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(173): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(44): UploadBehavior->_prepareToDeleteFiles(Object(User), 'avatar', true)
+#8 [internal function]: UploadBehavior->beforeSave(Object(User), Array)
+#9 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#12 /var/www/firstsite2/lib/Cake/Model/Model.php(1775): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /var/www/firstsite2/app/Controller/UsersController.php(90): Model->save(Array)
+#14 [internal function]: UsersController->edit('1')
+#15 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#18 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-18 15:32:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.avatar_file_name' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(173): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(44): UploadBehavior->_prepareToDeleteFiles(Object(User), 'avatar', true)
+#8 [internal function]: UploadBehavior->beforeSave(Object(User), Array)
+#9 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#12 /var/www/firstsite2/lib/Cake/Model/Model.php(1775): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /var/www/firstsite2/app/Controller/UsersController.php(90): Model->save(Array)
+#14 [internal function]: UsersController->edit('1')
+#15 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#18 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-18 15:34:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.avatar_file_name' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(173): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Plugin/upload_pack/Model/Behavior/UploadBehavior.php(44): UploadBehavior->_prepareToDeleteFiles(Object(User), 'avatar', true)
+#8 [internal function]: UploadBehavior->beforeSave(Object(User), Array)
+#9 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#12 /var/www/firstsite2/lib/Cake/Model/Model.php(1775): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /var/www/firstsite2/app/Controller/UsersController.php(90): Model->save(Array)
+#14 [internal function]: UsersController->edit('1')
+#15 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#18 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-18 15:36:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 15:47:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 15:47:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/1/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 15:47:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `firstsi...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/Database/Mysql.php(411): DboSource->execute('UPDATE `firstsi...')
+#3 /var/www/firstsite2/lib/Cake/Model/Model.php(1823): Mysql->update(Object(User), Array, Array)
+#4 /var/www/firstsite2/app/Controller/UsersController.php(90): Model->save(Array)
+#5 [internal function]: UsersController->edit('1')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-18 16:02:23 Error: [MissingControllerException] Controller class UController could not be found.
+Exception Attributes: array (
+  'class' => 'UController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/u
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-18 16:17:15 Error: Fatal Error (4): syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/firstsite2/app/Model/User.php, line 92]
+2014-07-18 16:17:15 Error: [FatalErrorException] syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 92, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 92, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 16:47:15 Error: Fatal Error (1): Cannot access empty property in [/var/www/firstsite2/lib/Cake/View/View.php, line 856]
+2014-07-18 16:47:15 Error: [FatalErrorException] Cannot access empty property
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/firsts...', 856)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 17:11:45 Error: [MissingTableException] Table comments for model Comment was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'comments',
+  'class' => 'Comment',
+  'ds' => 'default',
+)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Model.php(3504): Model->setSource('comments')
+#1 /var/www/firstsite2/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1735): DboSource->fields(Object(AppModel), 'Comment', '')
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1238): DboSource->generateAssociationQuery(Object(User), Object(AppModel), 'hasMany', 'Comment', Array, Array, true)
+#5 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(AppModel), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#9 [internal function]: PostsController->index()
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-18 17:12:04 Error: [MissingTableException] Table comments for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'comments',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Model.php(3504): Model->setSource('comments')
+#1 /var/www/firstsite2/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1735): DboSource->fields(Object(AppModel), 'Post', '')
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1238): DboSource->generateAssociationQuery(Object(User), Object(AppModel), 'hasMany', 'Post', Array, Array, true)
+#5 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(AppModel), 'hasMany', 'Post', Array, Array, true, Array, 0, Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#9 [internal function]: PostsController->index()
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-18 17:12:09 Error: [MissingTableException] Table comments for model Posts was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'comments',
+  'class' => 'Posts',
+  'ds' => 'default',
+)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Model.php(3504): Model->setSource('comments')
+#1 /var/www/firstsite2/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1735): DboSource->fields(Object(AppModel), 'Posts', '')
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1238): DboSource->generateAssociationQuery(Object(User), Object(AppModel), 'hasMany', 'Posts', Array, Array, true)
+#5 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(AppModel), 'hasMany', 'Posts', Array, Array, true, Array, 0, Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#9 [internal function]: PostsController->index()
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-18 17:12:24 Error: [MissingTableException] Table comments for model posts was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'comments',
+  'class' => 'posts',
+  'ds' => 'default',
+)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Model.php(3504): Model->setSource('comments')
+#1 /var/www/firstsite2/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1735): DboSource->fields(Object(AppModel), 'posts', '')
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1238): DboSource->generateAssociationQuery(Object(User), Object(AppModel), 'hasMany', 'posts', Array, Array, true)
+#5 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(AppModel), 'hasMany', 'posts', Array, Array, true, Array, 0, Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#9 [internal function]: PostsController->index()
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-18 17:12:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.status' in 'where clause'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `posts`....', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `posts`....', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `posts`....', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Post), 'hasMany', 'posts', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#8 [internal function]: PostsController->index()
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-18 17:13:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.created' in 'order clause'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `posts`....', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `posts`....', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `posts`....', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Post), 'hasMany', 'posts', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#8 [internal function]: PostsController->index()
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-18 17:13:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'post.created' in 'order clause'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `posts`....', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `posts`....', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `posts`....', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(User), Object(Post), 'hasMany', 'posts', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/app/Controller/PostsController.php(62): Model->find('first', Array)
+#8 [internal function]: PostsController->index()
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-18 17:21:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:21:29 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:22:54 Error: Fatal Error (1): Function name must be a string in [/var/www/firstsite2/app/View/Users/view.ctp, line 36]
+2014-07-18 17:22:54 Error: [FatalErrorException] Function name must be a string
+Request URL: /firstsite2/users/view/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Function name m...', '/var/www/firsts...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', '/var/www/firsts...', 36, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Function name m...', '/var/www/firsts...', 36, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-18 17:24:32 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:25:08 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:25:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:26:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:27:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:27:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:28:14 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:28:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:28:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:29:11 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:29:24 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:29:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:32:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:34:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:35:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumbuser_original
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:36:02 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/2/_thumbuser_original
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-18 17:39:29 Error: Fatal Error (4): syntax error, unexpected ''confirm_password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/firstsite2/app/Model/User.php, line 96]
+2014-07-18 17:39:29 Error: [FatalErrorException] syntax error, unexpected ''confirm_password'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 96, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 96, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
