@@ -61,20 +61,20 @@
   <p><small>
     Autor: <?php echo $this->Html->link(__($post['User']['username'], true), array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>
     Created: <?php echo $post['Post']['created']?>
+    <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.role') === 'editor' and $this->Session->read('Auth.User.id') === $post['Post']['user_id'])): ?>
     <?php echo $this->Html->link(
-                'Delete',
-                array('action' => 'delete', $post['Post']['id']),
-                null,
-                'Are you sure?'
-            )?>
-            <?php echo $this->Html->link('Edit', array('action' => 'edit', $post['Post']['id']));?>
+        'Delete',
+        array('action' => 'delete', $post['Post']['id']),
+        null,
+        'Are you sure?'
+    )?>
+    <?php echo $this->Html->link('Edit', array('action' => 'edit', $post['Post']['id']));?>
+    <?php endif; ?>
     </small></p>
   <p><?php echo $this->Text->truncate($post['Post']['body'], 250); ?></p>
   <p><small><?php echo $this->Html->link("Read More", array('action' => 'view', $post['Post']['id']));?></small></p>
 </article>
 <?php endforeach; ?>
-
-<?php debug($post); ?>
 
 <?php echo $this->Paginator->prev(' << ' . __('previous'), array(), null, array('class' => 'prev disabled')); ?>
 <?php echo $this->Paginator->numbers(); ?>

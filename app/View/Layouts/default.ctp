@@ -40,7 +40,9 @@ $CompanyName = "Header";
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link($CompanyName, '/'); ?></h1>
+			<?php if ($this->Session->read('Auth.User.role') === 'admin' or $this->Session->read('Auth.User.role') === 'editor'): ?>
 			<p><?php echo $this->Html->link("Add Post", array('action' => 'add'), array('class' => 'link')); ?></p>
+		<?php endif; ?>
 			<?php
 				if($this->Session->read('Auth.User.username')) {
 

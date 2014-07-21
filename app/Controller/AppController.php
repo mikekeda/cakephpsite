@@ -45,13 +45,14 @@ class AppController extends Controller {
 	);
 
 	public function beforeFilter() {
-		$this->Auth->allow('index', 'view');
+		$this->Auth->allow('view');
 	}
 
 	public function isAuthorized($user) {
-		if (isset($user[’role’]) && $user[’role’] === ’admin’) {
+		if (isset($user['role']) && $user['role'] === 'admin') {
 			return true;
 		}
+		$this->redirect(array('controller' => 'users', 'action' => 'view'), $user['id']);
 		return false;
 	}
 

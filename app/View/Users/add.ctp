@@ -1,14 +1,26 @@
 <!-- app/View/Users/add.ctp -->
 <div class="users form">
-	<?php echo $this->Form->create('User'); ?>
-	<fieldset>
-		<legend><?php echo __('Add User'); ?></legend>
-		<?php echo $this->Form->input('username');
-		echo $this->Form->input('password');
-		echo $this->Form->input('role', array(
-		'options' => array('admin' => 'admin', 'editor' => 'editor', 'user' => 'user', 'banned' => 'banned')
-		));
-		?>
-	</fieldset>
-	<?php echo $this->Form->end(__('Submit')); ?>
+<?php echo $this->Form->create('User', array('type' => 'file')); ?>
+    <fieldset>
+        <legend><?php echo __('Add user'); ?></legend>
+        <?php
+        /*echo $this->Form->label('File/image', 'Image');
+        echo $this->Form->file('File/image');*/
+        echo $this->Form->file('avatar');
+        echo $this->Form->input('username', array('label' => 'Username'));
+        echo $this->Form->input('email');
+        echo $this->Form->input('name');
+        echo $this->Form->input('surname');
+        echo $this->Form->input('password', array( 'label' => 'Password', 'maxLength' => 255, 'type'=>'password','required' => 0));
+        echo $this->Form->input('password_confirm', array('label' => 'Confirm Password *', 'maxLength' => 255, 'title' => 'Confirm password', 'type'=>'password','required' => 0));
+         
+ 
+        echo $this->Form->input('role', array(
+            'options' => array('admin' => 'admin', 'editor' => 'editor', 'user' => 'user', 'banned' => 'banned')
+        ));
+        echo $this->Form->submit('Sign up', array('class' => 'form-submit',  'title' => 'Click here to Sign up') );
+?>
+    </fieldset>
 </div>
+
+        

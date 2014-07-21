@@ -9098,3 +9098,1246 @@ Stack Trace:
 #3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-07-21 09:46:39 Error: Fatal Error (4): syntax error, unexpected 'переписати' (T_STRING), expecting function (T_FUNCTION) in [/var/www/firstsite2/app/Model/User.php, line 165]
+2014-07-21 09:46:40 Error: [FatalErrorException] syntax error, unexpected 'переписати' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 165, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 165, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 09:51:58 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 10:12:11 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 10:20:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /firstsite2/app/webroot/upload/users/3/_thumb
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 10:25:01 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:25:01 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:26:09 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:26:09 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:30:52 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:30:52 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:31:24 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:31:24 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:31:43 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:31:43 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:31:46 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:31:46 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:31:59 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:31:59 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:32:17 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:32:17 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:32:55 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:32:55 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:33:08 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:33:08 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/users/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:33:12 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:33:12 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:33:50 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:33:50 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:34:08 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:34:08 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:34:11 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:34:11 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:34:35 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:34:35 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:35:52 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:35:52 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:36:25 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:36:25 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:36:38 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:36:38 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:36:56 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:36:56 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:36:58 Error: Fatal Error (4): syntax error, unexpected '$filename' (T_VARIABLE) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 12]
+2014-07-21 10:36:58 Error: [FatalErrorException] syntax error, unexpected '$filename' (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:37:05 Error: Fatal Error (4): syntax error, unexpected 'debug' (T_STRING) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 13]
+2014-07-21 10:37:05 Error: [FatalErrorException] syntax error, unexpected 'debug' (T_STRING)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 13, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 13, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:37:34 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 13]
+2014-07-21 10:37:34 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 13, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 13, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 10:45:12 Error: Fatal Error (4): syntax error, unexpected '&' in [/var/www/firstsite2/app/Controller/UsersController.php, line 34]
+2014-07-21 10:45:12 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 34, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 34, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 11:14:18 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/add
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:22:27 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 17]
+2014-07-21 11:22:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 11:37:20 Error: [MissingControllerException] Controller class VarController could not be found.
+Exception Attributes: array (
+  'class' => 'VarController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/var/www/firstsite2/app/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:38:16 Error: [MissingControllerException] Controller class VarController could not be found.
+Exception Attributes: array (
+  'class' => 'VarController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/var/www/firstsite2/app/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:46:42 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 17]
+2014-07-21 11:46:42 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 11:47:26 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 17]
+2014-07-21 11:47:26 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 11:47:54 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 17]
+2014-07-21 11:47:54 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 17, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 11:48:50 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/firstsite2/app/View/Helper/PathHelper.php, line 18]
+2014-07-21 11:48:50 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /firstsite2/users
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 18, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 18, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 11:49:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:49:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/webrootupload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:50:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/webrootupload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/webrootupload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:50:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/img/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:51:09 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:51:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:52:47 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:53:07 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/webroot/upload/users/1/user_thumb.jpeg
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 11:58:17 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/view/43
+Stack Trace:
+#0 [internal function]: UsersController->view('43')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:11:55 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('User')
+#2 /var/www/firstsite2/app/View/Users/edit.ctp(24): View->__get('User')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-21 12:12:14 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('User')
+#2 /var/www/firstsite2/app/View/Users/edit.ctp(24): View->__get('User')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-21 12:19:50 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/firstsite2/app/View/Users/view.ctp, line 60]
+2014-07-21 12:19:50 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /firstsite2/users/view/2
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 60, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 60, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 12:20:24 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/firstsite2/app/View/Users/view.ctp, line 12]
+2014-07-21 12:20:24 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /firstsite2/users/view/2
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 12, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 12:21:52 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:22:36 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:23:16 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:23:19 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:23:38 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:23:54 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:24:21 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 12:27:02 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:28:07 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/2
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('2')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:28:28 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:29:07 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:29:18 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:29:56 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(108): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:30:21 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:30:24 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:30:44 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:31:03 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /firstsite2/users/delete/3
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Network/CakeRequest.php(958): CakeRequest->allowMethod(Array)
+#1 /var/www/firstsite2/app/Controller/UsersController.php(107): CakeRequest->onlyAllow('post')
+#2 [internal function]: UsersController->delete('3')
+#3 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-21 12:39:21 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/view/7
+Stack Trace:
+#0 [internal function]: UsersController->view('7')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 13:12:24 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 30069382 bytes) in [/var/www/firstsite2/lib/Cake/Utility/Debugger.php, line 562]
+2014-07-21 13:12:24 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 30069382 bytes)
+Request URL: /firstsite2/posts/edit/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/firsts...', 562)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:12:33 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 30083178 bytes) in [/var/www/firstsite2/lib/Cake/Utility/Debugger.php, line 562]
+2014-07-21 13:12:33 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 30083178 bytes)
+Request URL: /firstsite2/posts/delete/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/firsts...', 562)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:12:47 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 30069382 bytes) in [/var/www/firstsite2/lib/Cake/Utility/Debugger.php, line 562]
+2014-07-21 13:12:47 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 30069382 bytes)
+Request URL: /firstsite2/posts/edit/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/firsts...', 562)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:13:07 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 30069382 bytes) in [/var/www/firstsite2/lib/Cake/Utility/Debugger.php, line 562]
+2014-07-21 13:13:07 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 30069382 bytes)
+Request URL: /firstsite2/posts/edit/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/firsts...', 562)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/firsts...', 562, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:13:10 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:13:23 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:13:43 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:14:07 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:14:34 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:24:20 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:24:42 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:27:39 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/firstsite2/app/Controller/UsersController.php, line 123]
+2014-07-21 13:27:39 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /firstsite2/posts/view/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 123)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 123, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 123, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:30:18 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:30:34 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:32:00 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:32:51 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:32:56 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:33:40 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:34:12 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:42:30 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/firstsite2/app/Controller/PostsController.php, line 82]
+2014-07-21 13:42:30 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /firstsite2/posts/edit/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 82, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 82, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:42:45 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/firstsite2/app/Controller/PostsController.php, line 82]
+2014-07-21 13:42:45 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /firstsite2/posts/edit/26
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 82, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 82, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 13:43:04 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:44:07 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:44:38 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:44:52 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:47:01 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:47:28 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:48:09 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:48:47 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:49:12 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:50:56 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 13:51:16 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/posts/edit/27
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(55): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/app/Controller/PostsController.php(102): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): PostsController->isAuthorized(Array)
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PostsController))
+#7 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-21 13:51:53 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/posts/edit/27
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(55): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/app/Controller/PostsController.php(102): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): PostsController->isAuthorized(Array)
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#5 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PostsController))
+#7 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-21 13:52:49 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/posts/edit/27
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('27')
+#1 /var/www/firstsite2/app/Controller/PostsController.php(102): Controller->redirect(Array, '27')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): PostsController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(PostsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-21 13:53:06 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/posts/edit/27
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('27')
+#1 /var/www/firstsite2/app/Controller/PostsController.php(102): Controller->redirect(Array, '27')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): PostsController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(PostsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-21 13:54:12 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/posts/edit/27
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('27')
+#1 /var/www/firstsite2/app/Controller/PostsController.php(102): Controller->redirect(Array, '27')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): PostsController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(PostsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-21 13:54:33 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/posts/edit/27
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('27')
+#1 /var/www/firstsite2/app/Controller/PostsController.php(102): Controller->redirect(Array, '27')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): PostsController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(PostsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-21 13:56:46 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/users/edit/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/UsersController.php(136): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): UsersController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(UsersController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-21 14:03:35 Error: Fatal Error (4): syntax error, unexpected 'debug' (T_STRING) in [/var/www/firstsite2/app/Controller/UsersController.php, line 41]
+2014-07-21 14:03:35 Error: [FatalErrorException] syntax error, unexpected 'debug' (T_STRING)
+Request URL: /firstsite2/users/view/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 41, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 41, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 14:03:47 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/firstsite2/app/Controller/UsersController.php, line 40]
+2014-07-21 14:03:47 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /firstsite2/users/view/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 40, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 40, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 14:03:51 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/firstsite2/app/Controller/UsersController.php, line 40]
+2014-07-21 14:03:51 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /firstsite2/users/view/1
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 40, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 40, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 14:09:36 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [/var/www/firstsite2/app/Controller/UsersController.php, line 20]
+2014-07-21 14:09:36 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 20, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 20, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 14:10:55 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [/var/www/firstsite2/app/Controller/UsersController.php, line 24]
+2014-07-21 14:10:55 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /firstsite2/users/index
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/firsts...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/firsts...', 24, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/firsts...', 24, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 14:26:50 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/firstsite2/app/View/Posts/index.ctp, line 64]
+2014-07-21 14:26:50 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /firstsite2/posts/index/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 64, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 64, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 14:27:56 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 14:29:49 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/post
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 14:45:45 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/view/37
+Stack Trace:
+#0 [internal function]: UsersController->view('37')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:05:30 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/firstsite2/app/View/Users/edit.ctp, line 32]
+2014-07-21 15:05:30 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /firstsite2/users/edit/2
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 32, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 32, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 15:06:52 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:07:34 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:09:07 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:10:40 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:12:15 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:13:28 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-21 15:14:43 Error: [NotFoundException] Invalid user
+Request URL: /firstsite2/users/edit/26
+Stack Trace:
+#0 [internal function]: UsersController->edit('26')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

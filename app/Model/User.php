@@ -20,7 +20,7 @@ class User extends AppModel {
 		'UploadPack.Upload' => array(
 			'avatar' => array(
 				'styles' => array(
-					'thumb' => '80x80'
+					'thumb' => '150x150'
 				)
 			)
 		)
@@ -86,15 +86,15 @@ class User extends AppModel {
         	)
 		),
 
-		'password' => array(     
+/*		'password' => array(     
 		    'minLength' => array(
 		        'rule' => array('minLength', 2),
 		        'message' => 'Your password must be at least 2 characters long.'
 		    )
-		),
+		),*/
 
-	    'confirm_password' => array(
-	        'identical' => array(
+	    'password_confirm' => array(
+	        'identicalFieldValues' => array(
 	            'rule' => array('identicalFieldValues', 'password'),
 	            'message' => 'Password confirmation does not match password.'
 	        )
@@ -143,21 +143,28 @@ class User extends AppModel {
 	);
 
 	public function beforeSave($options = array()) {
-		if (isset($this->data[$this->alias]['password'])) {
-
-			if (isset($this->data[$this->alias]['confirm_password'])) {
-				if ($this->data[$this->alias]['confirm_password'] == $this->data[$this->alias]['password']) {
-					$passwordHasher = new SimplePasswordHasher();
-					$this->data[$this->alias]['password'] = $passwordHasher->hash(
-						$this->data[$this->alias]['password']
-					);
-				}
-			}
-
-			
-		}
-		return true;
+	    if (isset($this->data[$this->alias]['password'])) {
+	        $passwordHasher = new SimplePasswordHasher();
+	        $this->data[$this->alias]['password'] = $passwordHasher->hash(
+	            $this->data[$this->alias]['password']
+	        );
+	    }
+	    return true;
 	}
+
+	function identicalFieldValues( $field=array(), $compare_field=null ) {
+
+        foreach( $field as $key => $value ){
+            $v1 = $value;
+            $v2 = $this->data[$this->name][ $compare_field ];           
+            if($v1 !== $v2) {
+                return FALSE;
+            } else {
+                continue;
+            }
+        }
+        return TRUE;
+    } 
 
 }
 ?>
