@@ -10341,3 +10341,162 @@ Stack Trace:
 #3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-07-21 15:45:25 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 63]
+2014-07-21 15:45:25 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 63, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 63, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 15:51:51 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 63]
+2014-07-21 15:51:51 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 63, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 63, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:07:30 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 16:07:30 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:08:05 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 16:08:05 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:08:49 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 16:08:49 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:08:51 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 16:08:51 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:08:54 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 16:08:54 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:09:06 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 16:09:06 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:18:10 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 72]
+2014-07-21 16:18:10 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 72, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 72, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 16:28:24 Error: [MissingControllerException] Controller class Firstsite2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Firstsite2Controller',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/firstsite2/css/cake.generic.css
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 17:07:23 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 71]
+2014-07-21 17:07:23 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /firstsite2/users/signup
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 71, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 17:12:17 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 72]
+2014-07-21 17:12:17 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /firstsite2/users/view/2
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 72, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 72, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 17:16:05 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 83]
+2014-07-21 17:16:05 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 83, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 83, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 17:20:17 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 67]
+2014-07-21 17:20:17 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 67, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 67, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 17:29:32 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 62]
+2014-07-21 17:29:32 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 62, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 62, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 17:35:20 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/firstsite2/app/View/Layouts/default.ctp, line 70]
+2014-07-21 17:35:20 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /firstsite2/posts/index/home
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 70, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 70, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

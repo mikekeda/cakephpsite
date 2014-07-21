@@ -41,11 +41,10 @@ $CompanyName = "Header";
 		<div id="header">
 			<h1><?php echo $this->Html->link($CompanyName, '/'); ?></h1>
 			<?php if ($this->Session->read('Auth.User.role') === 'admin' or $this->Session->read('Auth.User.role') === 'editor'): ?>
-			<p><?php echo $this->Html->link("Add Post", array('action' => 'add'), array('class' => 'link')); ?></p>
-		<?php endif; ?>
+				<p><?php echo $this->Html->link("Add Post", array('action' => 'add'), array('class' => 'link')); ?></p>
+			<?php endif; ?>
 			<?php
 				if($this->Session->read('Auth.User.username')) {
-
 					$path = $this->Path->pathtoavatar($this->Session->read('Auth.User'), 'thumb');
 					echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username')));
 
@@ -56,6 +55,20 @@ $CompanyName = "Header";
 				   // the user is not logged in
 					echo $this->Html->link(__('Sign up', true), array('controller'=>'users', 'action'=>'signup'), array('class' => 'link'));
 					echo $this->Html->link(__('Log in', true), array('controller'=>'users', 'action'=>'login'), array('class' => 'link'));
+					echo '<div class="forminline">';
+					    echo $this->Session->flash('auth');
+					    echo $this->Form->create('User', array('inputDefaults' => array('label' => false, 'div' => false), 'url' => array('controller' => 'users', 'action' => 'login')));
+					    echo '<fieldset>';
+					        echo $this->Form->input('username');
+					        echo $this->Form->input('password');
+					    echo '</fieldset>';
+					    $options = array(
+						    'label' => 'Login',
+						    'value' => 'Login',
+						    'div' => false
+						);
+					    echo $this->Form->end($options);
+					echo '</div>';
 				}
 			?>
 		</div>

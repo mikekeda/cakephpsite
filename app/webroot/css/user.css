@@ -3,3 +3,15 @@
 	display: block;
 	clear: right;
 }
+
+.forminline {
+	float: right;
+	clear: both;
+}
+
+.forminline input {
+	width: auto;
+	clear: none !important;
+	float: right;
+	display: inline-block;
+}
