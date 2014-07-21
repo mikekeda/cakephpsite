@@ -7,9 +7,12 @@
         <tr>
             <th>Id</th>
             <th>Username</th>
-            <th>Email</th>
+            <?php if($this->Session->read('Auth.User.username')) {
+                echo "<th>Email</th>";
+            }
+            ?>
             <th>Created</th>
-            <th>Last Update</th>
+            <th>Last visit</th>
             <th>Role</th>
         </tr>
     </thead>
@@ -19,14 +22,46 @@
         <?php endif; ?>
             <td><?php echo $this->Form->checkbox('User.id.'.$user['User']['id']); ?> <?php echo $user['User']['id']; ?></td>
             <td><?php echo $this->Html->link($user['User']['username'], array('action'=>'edit', $user['User']['id']),array('escape' => false) );?></td>
-            <td style="text-align: center;"><?php echo $user['User']['email']; ?></td>
+            <?php if($this->Session->read('Auth.User.username')) {
+                echo '<td style="text-align: center;">' . $user['User']['email'] . '></td>';
+            }
+            ?>
             <td style="text-align: center;"><?php echo $this->Time->niceShort($user['User']['created']); ?></td>
-            <td style="text-align: center;"><?php echo $this->Time->niceShort($user['User']['modified']); ?></td>
+            <td style="text-align: center;"><?php echo $this->Time->niceShort($user['User']['last_visit']); ?></td>
             <td style="text-align: center;"><?php echo $user['User']['role']; ?></td>
         </tr>
-        <?php unset($user); ?>
+      
     </tbody>
 </table>
-</div>               
-<?php echo $this->Html->link( "Add A New User.",   array('action'=>'add'),array('escape' => false) ); ?>
-<br/>
+
+<?php foreach ($user['posts'] as $post): ?>
+<article>
+  <h3><?php echo $this->Html->link($post['title'], array('action' => 'view', $post['id']));?></h3>
+  <p><small>
+    Autor: <?php echo $this->Html->link(__($user['User']['username'], true), array('controller'=>'users', 'action' => 'view', $post['user_id']));?>
+    Created: <?php echo $post['created']?>
+    <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $user['User']['id'])): ?>
+    <?php echo $this->Html->link(
+        'Delete',
+        array('action' => 'delete', $post['id']),
+        null,
+        'Are you sure?'
+    )?>
+    <?php echo $this->Html->link('Edit', array('controller' => 'posts', 'action' => 'edit', $post['id']));?>
+    <?php endif; ?>
+    </small></p>
+  <p><?php echo $this->Text->truncate($post['body'], 250); ?></p>
+  <p><small><?php echo $this->Html->link("Read More", array('action' => 'view', $post['id']));?></small></p>
+</article>
+<?php endforeach; ?>
+
+</div>
+<?php $path = $this->Path->pathtoavatar($user['User'], 'thumb'); ?>
+<?php echo $this->Html->image($path, array('alt' => $user['User']['username'])); ?>            
+<?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $user['User']['id'])): ?>
+<br>
+<?php echo $this->Html->link('Edit profile', array('action'=>'edit', $user['User']['id']) );?>
+<br>
+<?php echo $this->Html->link('Delete profile', array('action'=>'delete', $user['User']['id']) );?>
+<?php endif; ?>
+<?php unset($user); ?>

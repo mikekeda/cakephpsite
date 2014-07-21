@@ -1,9 +1,16 @@
 <?php
 class Post extends AppModel {
 
-	var $name = 'Post';
+	public $name = 'Post';
 
-    var $validate = array(
+    public $belongsTo = array(
+        'User' => array(
+        'className' => 'User',
+        'foreignKey' => 'user_id'
+        )
+    );
+
+    public $validate = array(
         'title' => array(
             'rule' => 'notEmpty'
         ),

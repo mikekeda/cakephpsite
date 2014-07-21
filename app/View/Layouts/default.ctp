@@ -15,7 +15,7 @@
  * @since         CakePHP(tm) v 0.10.0.1076
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
+App::import('Controller', 'users');
 $CompanyName = "Header";
 ?>
 <!DOCTYPE html>
@@ -40,15 +40,22 @@ $CompanyName = "Header";
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link($CompanyName, '/'); ?></h1>
+			<?php if ($this->Session->read('Auth.User.role') === 'admin' or $this->Session->read('Auth.User.role') === 'editor'): ?>
 			<p><?php echo $this->Html->link("Add Post", array('action' => 'add'), array('class' => 'link')); ?></p>
+		<?php endif; ?>
 			<?php
 				if($this->Session->read('Auth.User.username')) {
+
+					$path = $this->Path->pathtoavatar($this->Session->read('Auth.User'), 'thumb');
+					echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username')));
+
 					echo $this->Html->link(__($this->Session->read('Auth.User.username'), true), array('controller'=>'users', 'action' => 'view', $this->Session->read('Auth.User.id')), array('class' => 'link'));
 				   // user is logged in, show logout..user menu etc
 					echo $this->Html->link(__('Logout', true), array('controller'=>'users', 'action'=>'logout'), array('class' => 'link'));
 				} else {
 				   // the user is not logged in
-					echo $this->Html->link(__('Login', true), array('controller'=>'users', 'action'=>'login'), array('class' => 'link'));
+					echo $this->Html->link(__('Sign up', true), array('controller'=>'users', 'action'=>'signup'), array('class' => 'link'));
+					echo $this->Html->link(__('Log in', true), array('controller'=>'users', 'action'=>'login'), array('class' => 'link'));
 				}
 			?>
 		</div>

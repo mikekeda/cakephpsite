@@ -58,9 +58,9 @@ class PostsController extends AppController {
 		$this->loadModel('User');
 		$this->Paginator->settings = $this->paginate;
 		$posts = $this->Paginator->paginate('Post');
-		foreach ( $posts as &$post ) {
+/*		foreach ( $posts as &$post ) {
         	$post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
-		}
+		}*/
 		$this->set('posts', $posts);
     }
 
@@ -76,17 +76,36 @@ class PostsController extends AppController {
 	}
 
 	public function isAuthorized($user) {
-		if ($this->action === 'add') {
+		if ($this->action === 'index') {
 			return true;
 		}
+		//$this->loadModel('User');
 
-		if (in_array($this->action, array('edit', 'delete'))) {
-			$postId = (int) $this->request->params['pass'][0];
-			if ($this->Post->isOwnedBy($postId, $user['id'])) {
+		if (isset($user['role'])) {
+			// admin can do anything
+			if ($user['role'] === 'admin') {
 				return true;
 			}
+
+			if ($user['role'] === 'editor') {
+				if ($this->action === 'add') {
+					return true;
+				}
+				if (in_array($this->action, array('edit', 'delete'))) {
+					$postId = (int) $this->request->params['pass'][0];
+					debug($postId);
+					if ($this->Post->isOwnedBy($postId, $user['id'])) {
+						return true;
+					}
+				}
+
+			}
 		}
-		return parent::isAuthorized($user);
+		if (isset($this->request->params['pass'][0])) {
+			$this->redirect(array('action' => 'view', $this->request->params['pass'][0]));
+		} else {
+			$this->redirect(array('action' => 'index', 'home'));
+		}
 	}
 
 }
