@@ -18,7 +18,7 @@
                 'options' => array('admin' => 'admin', 'editor' => 'editor', 'user' => 'user', 'banned' => 'banned')
             ));
         }
-        echo $this->Form->submit('Edit User', array('class' => 'form-submit',  'title' => 'Click here to add the user') );
+        echo $this->Form->submit(__('Edit User'), array('class' => 'form-submit',  'title' => 'Click here to add the user') );
 ?>
     </fieldset>
 <?php echo $this->Form->end(); ?>
@@ -27,6 +27,6 @@
 <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $this->data['User']['id'])): ?>
 <?php echo $this->Html->image($path, array('alt' => $this->data['User']['username'])); ?>
 <br>
-<?php echo $this->Html->link('Delete profile', array('action'=>'delete', $this->data['User']['id']) );?>
+<?php echo $this->Html->link(__('Delete profile', true), array('action'=>'delete', $this->data['User']['id']) );?>
 <?php endif; ?>
 <?php unset($user); ?>

@@ -6,14 +6,14 @@
     <thead>
         <tr>
             <th>Id</th>
-            <th>Username</th>
+            <th><?php echo __('Username') ?></th>
             <?php if($this->Session->read('Auth.User.username')) {
-                echo "<th>Email</th>";
+                echo "<th>" . __("Email") . "</th>";
             }
             ?>
-            <th>Created</th>
-            <th>Last visit</th>
-            <th>Role</th>
+            <th><?php echo __('Created') ?></th>
+            <th><?php echo __('Last visit') ?></th>
+            <th><?php echo __('Role') ?></th>
         </tr>
     </thead>
     <tbody>                      
@@ -36,22 +36,22 @@
 
 <?php foreach ($user['posts'] as $post): ?>
 <article>
-  <h3><?php echo $this->Html->link($post['title'], array('action' => 'view', $post['id']));?></h3>
+  <h3><?php echo $this->Html->link($post['title'], array('controller'=>'posts', 'action' => 'view', $post['id']));?></h3>
   <p><small>
-    Autor: <?php echo $this->Html->link(__($user['User']['username'], true), array('controller'=>'users', 'action' => 'view', $post['user_id']));?>
-    Created: <?php echo $post['created']?>
+    <?php echo __('Autor') ?>: <?php echo $this->Html->link($user['User']['username'], array('controller'=>'users', 'action' => 'view', $post['user_id']));?>
+    <?php echo __('Created') ?>: <?php echo $post['created']?>
     <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $user['User']['id'])): ?>
     <?php echo $this->Html->link(
-        'Delete',
+        __('Delete'),
         array('action' => 'delete', $post['id']),
         null,
-        'Are you sure?'
-    )?>
-    <?php echo $this->Html->link('Edit', array('controller' => 'posts', 'action' => 'edit', $post['id']));?>
+        __('Are you sure?')
+    ) ?>
+    <?php echo $this->Html->link(__('Edit', true), array('controller' => 'posts', 'action' => 'edit', $post['id']));?>
     <?php endif; ?>
     </small></p>
   <p><?php echo $this->Text->truncate($post['body'], 250); ?></p>
-  <p><small><?php echo $this->Html->link("Read More", array('action' => 'view', $post['id']));?></small></p>
+  <p><small><?php echo $this->Html->link(__("Read More", true), array('action' => 'view', $post['id']));?></small></p>
 </article>
 <?php endforeach; ?>
 
@@ -60,8 +60,8 @@
 <?php echo $this->Html->image($path, array('alt' => $user['User']['username'])); ?>            
 <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $user['User']['id'])): ?>
 <br>
-<?php echo $this->Html->link('Edit profile', array('action'=>'edit', $user['User']['id']) );?>
+<?php echo $this->Html->link(__('Edit profile', true), array('action'=>'edit', $user['User']['id']) );?>
 <br>
-<?php echo $this->Html->link('Delete profile', array('action'=>'delete', $user['User']['id']) );?>
+<?php echo $this->Html->link(__('Delete profile', true), array('action'=>'delete', $user['User']['id']) );?>
 <?php endif; ?>
 <?php unset($user); ?>
