@@ -26,7 +26,14 @@
 Cache::config('default', array('engine' => 'File'));
 
 CakePlugin::load('DebugKit');
-CakePlugin::load('Upload');
+CakePlugin::load('UploadPack');
+
+define('DEFAULT_LANGUAGE', 'eng').
+
+Configure::write('Config.languages', array(
+	'eng' => 'English version',
+	'ukr' => 'Українська версія'));
+
 //CakePlugin::loadAll();
 
 /**

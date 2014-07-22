@@ -70,7 +70,7 @@ class PostsController extends AppController {
 			$this->request->data['Post']['user_id'] = $this->Auth->user('id');
 			if ($this->Post->save($this->request->data)) {
 				$this->Session->setFlash(__('Your post has been saved.'));
-				$this->redirect(array('action' => 'view', $this->Post->id));
+				//$this->redirect(array('action' => 'view', $this->Post->id));
 			}
 		}
 	}

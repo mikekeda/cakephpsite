@@ -40,6 +40,20 @@ $CompanyName = "Header";
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link($CompanyName, '/'); ?></h1>
+			<ul class="flags">
+			<li>
+			<?php echo $this->Html->link(
+				$this->Html->image('/' . APP_DIR . '/' . WEBROOT_DIR . '/img/flags/ua.png', array('alt' => 'ua')), array('action' => 'changeLanguage', 'ukr'), array('escape' => false)
+				);
+			?>
+			</li>
+			<li>
+			<?php echo $this->Html->link(
+				$this->Html->image('/' . APP_DIR . '/' . WEBROOT_DIR . '/img/flags/en.png', array('alt' => 'en')), array('action' => 'changeLanguage', 'eng'), array('escape' => false)
+				);
+			?>
+			</li>
+			</ul>
 			<?php if ($this->Session->read('Auth.User.role') === 'admin' or $this->Session->read('Auth.User.role') === 'editor'): ?>
 				<p><?php echo $this->Html->link(__("Add Post"), array('action' => 'add'), array('class' => 'link')); ?></p>
 			<?php endif; ?>

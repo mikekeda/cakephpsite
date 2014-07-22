@@ -30,5 +30,11 @@ App::uses('Helper', 'View');
  * @package       app.View.Helper
  */
 class AppHelper extends Helper {
+	function url($url = null, $full = false) {
+		if($this->params['language'] == DEFAULT_LANGUAGE) {
+			unset($this->params['language']);
+		}
 
+		return parent::url($url, $full);
+	}
 }

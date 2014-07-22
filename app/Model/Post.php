@@ -3,6 +3,16 @@ class Post extends AppModel {
 
 	public $name = 'Post';
 
+    public $actsAs = array(
+        'Translate' => array(
+            'title', 'body'
+        )
+    );
+
+/*    public $locale = 'eng';*/
+    public $translateModel = 'PostI18n';
+    public $translateTable = 'PostI18n';
+
     public $belongsTo = array(
         'User' => array(
         'className' => 'User',

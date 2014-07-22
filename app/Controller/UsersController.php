@@ -45,12 +45,13 @@ class UsersController extends AppController {
 				array('username' => 'email'));
 			}
 			$user = $this->User->findByUsername($this->data['User']['username']);
+			Configure::write('Config.language', $user['User']['locale']);
 			if ($user['User']['role'] === 'banned') {
 				$this->Session->setFlash(__('You are banned'));
 				return true;
 			} else {
 				if(!$this->Auth->login()) {
-			        $this->User->saveField('last_visit', date(DATE_ATOM)); // save login time
+					$this->User->saveField('last_visit', date(DATE_ATOM)); // save login time
 					$this->Session->setFlash(__('Invalid username or password, try again'));
 				} else {
 					$this->redirect($this->Auth->redirect());
