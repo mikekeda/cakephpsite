@@ -40,15 +40,29 @@ $CompanyName = "Header";
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link($CompanyName, '/'); ?></h1>
+			<ul class="flags">
+			<li>
+			<?php echo $this->Html->link(
+				$this->Html->image('/' . APP_DIR . '/' . WEBROOT_DIR . '/img/flags/ua.png', array('alt' => 'ua')), array('action' => 'changeLanguage', 'ukr'), array('escape' => false)
+				);
+			?>
+			</li>
+			<li>
+			<?php echo $this->Html->link(
+				$this->Html->image('/' . APP_DIR . '/' . WEBROOT_DIR . '/img/flags/en.png', array('alt' => 'en')), array('action' => 'changeLanguage', 'eng'), array('escape' => false)
+				);
+			?>
+			</li>
+			</ul>
 			<?php if ($this->Session->read('Auth.User.role') === 'admin' or $this->Session->read('Auth.User.role') === 'editor'): ?>
-				<p><?php echo $this->Html->link("Add Post", array('action' => 'add'), array('class' => 'link')); ?></p>
+				<p><?php echo $this->Html->link(__("Add Post"), array('action' => 'add'), array('class' => 'link')); ?></p>
 			<?php endif; ?>
 			<?php
 				if($this->Session->read('Auth.User.username')) {
 					$path = $this->Path->pathtoavatar($this->Session->read('Auth.User'), 'thumb');
 					echo $this->Html->image($path, array('alt' => $this->Session->read('Auth.User.username')));
 
-					echo $this->Html->link(__($this->Session->read('Auth.User.username'), true), array('controller'=>'users', 'action' => 'view', $this->Session->read('Auth.User.id')), array('class' => 'link'));
+					echo $this->Html->link($this->Session->read('Auth.User.username', true), array('controller'=>'users', 'action' => 'view', $this->Session->read('Auth.User.id')), array('class' => 'link'));
 				   // user is logged in, show logout..user menu etc
 					echo $this->Html->link(__('Logout', true), array('controller'=>'users', 'action'=>'logout'), array('class' => 'link'));
 				} else {
@@ -63,8 +77,8 @@ $CompanyName = "Header";
 					        echo $this->Form->input('password');
 					    echo '</fieldset>';
 					    $options = array(
-						    'label' => 'Login',
-						    'value' => 'Login',
+						    'label' => __('Login'),
+						    'value' => __('Login'),
 						    'div' => false
 						);
 					    echo $this->Form->end($options);

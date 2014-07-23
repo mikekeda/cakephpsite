@@ -4,6 +4,17 @@
 	clear: right;
 }
 
+.flags li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.flags {
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+}
+
 .forminline {
 	float: right;
 	clear: both;

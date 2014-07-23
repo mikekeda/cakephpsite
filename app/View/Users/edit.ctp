@@ -11,14 +11,14 @@
         echo $this->Form->input('email');
         echo $this->Form->input('name');
         echo $this->Form->input('surname');
-        echo $this->Form->input('password', array( 'label' => 'New Password (leave empty if you do not want to change)', 'maxLength' => 255, 'type'=>'password','required' => 0));
-        echo $this->Form->input('password_confirm', array('label' => 'Confirm New Password *', 'maxLength' => 255, 'title' => 'Confirm New password', 'type'=>'password','required' => 0));
+        echo $this->Form->input('password', array( 'label' => __('New Password (leave empty if you do not want to change)'), 'maxLength' => 255, 'type'=>'password','required' => 0));
+        echo $this->Form->input('password_confirm', array('label' => 'Confirm New Password *', 'maxLength' => 255, 'title' => __('Confirm New password'), 'type'=>'password','required' => 0));
         if ($this->Session->read('Auth.User.role') === 'admin') {
             echo $this->Form->input('role', array(
-                'options' => array('admin' => 'admin', 'editor' => 'editor', 'user' => 'user', 'banned' => 'banned')
+                'options' => array('admin' => __('admin'), 'editor' => __('editor'), 'user' => __('user'), 'banned' => __('banned'))
             ));
         }
-        echo $this->Form->submit('Edit User', array('class' => 'form-submit',  'title' => 'Click here to add the user') );
+        echo $this->Form->submit(__('Edit User'), array('class' => 'form-submit',  'title' => __('Click here to add the user')) );
 ?>
     </fieldset>
 <?php echo $this->Form->end(); ?>
@@ -27,6 +27,6 @@
 <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $this->data['User']['id'])): ?>
 <?php echo $this->Html->image($path, array('alt' => $this->data['User']['username'])); ?>
 <br>
-<?php echo $this->Html->link('Delete profile', array('action'=>'delete', $this->data['User']['id']) );?>
+<?php echo $this->Html->link(__('Delete profile', true), array('action'=>'delete', $this->data['User']['id']) );?>
 <?php endif; ?>
 <?php unset($user); ?>

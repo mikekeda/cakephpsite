@@ -26,6 +26,8 @@ class User extends AppModel {
 		)
 	);
 
+	/*public $validationDomain = 'validation';*/
+
 	public $validate = array(
 /*		'avatar_file_name' => array(
 
