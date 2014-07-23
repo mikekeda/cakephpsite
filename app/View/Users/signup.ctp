@@ -5,8 +5,6 @@
     <fieldset>
         <legend><?php echo __('Sign up'); ?></legend>
         <?php
-        /*echo $this->Form->label('File/image', 'Image');
-        echo $this->Form->file('File/image');*/
         echo $this->Form->file('avatar');
         echo $this->Form->input('username', array('label' => __('Username')));
         echo $this->Form->input('email', array('label' => __('Email'));

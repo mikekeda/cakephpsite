@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-07-22 16:23+0300\n"
-"PO-Revision-Date: 2014-07-22 16:35+0300\n"
+"POT-Creation-Date: 2014-07-23 13:20+0300\n"
+"PO-Revision-Date: 2014-07-23 13:23+0300\n"
 "Last-Translator: Mihailo <mriynuk@gmail.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Користувач видалений"
 msgid "User was not deleted"
 msgstr "Користувач не був видалений"
 
-#: View/Layouts/default.ctp:58
+#: View/Layouts/default.ctp:58 View/Posts/add.ctp:3
 msgid "Add Post"
 msgstr "Додати запис"
 
@@ -63,7 +63,7 @@ msgid "Logout"
 msgstr "Вийти"
 
 #: View/Layouts/default.ctp:70 View/Users/add.ctp:21
-#: View/Users/signup.ctp:6;22
+#: View/Users/signup.ctp:6;20
 msgid "Sign up"
 msgstr "Зареєструватися"
 
@@ -75,15 +75,23 @@ msgstr "Увійти"
 msgid "Login"
 msgstr "Увійти"
 
-#: View/Posts/add.ctp:6
-msgid "Title"
-msgstr "Заголовок"
+#: View/Posts/add.ctp:6 View/Posts/edit.ctp:6
+msgid "Title En"
+msgstr "Заголовок (англійською)"
 
-#: View/Posts/add.ctp:7
-msgid "Text"
-msgstr "Текст"
+#: View/Posts/add.ctp:7 View/Posts/edit.ctp:7
+msgid "Text En"
+msgstr "Текст (англійською)"
 
-#: View/Posts/add.ctp:8 View/Posts/edit.ctp:9
+#: View/Posts/add.ctp:8 View/Posts/edit.ctp:8
+msgid "Title Ua"
+msgstr "Заголовок (українською)"
+
+#: View/Posts/add.ctp:9 View/Posts/edit.ctp:9
+msgid "Text Ua"
+msgstr "Текст (Українською)"
+
+#: View/Posts/add.ctp:10 View/Posts/edit.ctp:11
 msgid "Save Post"
 msgstr "Зберегти запис"
 
@@ -135,27 +143,27 @@ msgstr "Власник"
 msgid "Add user"
 msgstr "Додати користувача"
 
-#: View/Users/add.ctp:10 View/Users/signup.ctp:11 View/Users/view.ctp:9
+#: View/Users/add.ctp:10 View/Users/signup.ctp:9 View/Users/view.ctp:9
 msgid "Username"
 msgstr "Ім'я користувача"
 
-#: View/Users/add.ctp:11 View/Users/signup.ctp:12 View/Users/view.ctp:11
+#: View/Users/add.ctp:11 View/Users/signup.ctp:10 View/Users/view.ctp:11
 msgid "Email"
 msgstr "поштова скринька"
 
-#: View/Users/add.ctp:12 View/Users/signup.ctp:13
+#: View/Users/add.ctp:12 View/Users/signup.ctp:11
 msgid "Name"
 msgstr "Ім'я"
 
-#: View/Users/add.ctp:13 View/Users/signup.ctp:14
+#: View/Users/add.ctp:13 View/Users/signup.ctp:12
 msgid "Surname"
 msgstr "Призвіще"
 
-#: View/Users/add.ctp:14 View/Users/signup.ctp:15
+#: View/Users/add.ctp:14 View/Users/signup.ctp:13
 msgid "Password"
 msgstr "Пороль"
 
-#: View/Users/add.ctp:15 View/Users/signup.ctp:16
+#: View/Users/add.ctp:15 View/Users/signup.ctp:14
 msgid "Confirm Password *"
 msgstr "Підтвердіть пароль *"
 
@@ -202,6 +210,10 @@ msgstr "Будь ласка введіть ваші ім'я і пароль"
 #: View/Users/login.ctp:9
 msgid "Username or e-mail:"
 msgstr "Ім'я користувача або емайл"
+
+#: View/Users/login.ctp:10
+msgid "Password:"
+msgstr "Пороль:"
 
 #: View/Users/view.ctp:15
 msgid "Last visit"
@@ -520,7 +532,7 @@ msgstr ""
 
 #: View/Errors/error400.ctp:21 View/Errors/error500.ctp:21
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 #: View/Errors/error400.ctp:23
 msgid "The requested address %s was not found on this server."
