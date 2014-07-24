@@ -22,13 +22,16 @@ class UsersController extends AppController {
 	}*/
 
 	public function index() {
+		$this->User->recursive = 0;
 		$this->Paginator->settings = $this->paginate;
 		$users = $this->Paginator->paginate('User');
 		$this->set('users', $users);
 	}
 
 	public function view($id = null) {
+		$this->User->recursive = 0; //Доробити відображення постів користувача у профілі!
 		$this->User->id = $id;
+		debug($this->User->read());
 		if (!$this->User->exists()) {
 			throw new NotFoundException(__('Invalid user'));
 		}
@@ -44,22 +47,27 @@ class UsersController extends AppController {
 				$this->Auth->authenticate['Form'] = array('fields' =>
 				array('username' => 'email'));
 			}
+			$this->User->recursive = 0; 
 			$user = $this->User->findByUsername($this->data['User']['username']);
-			Configure::write('Config.language', $user['User']['locale']);
-			if ($user['User']['role'] === 'banned') {
-				$this->Session->setFlash(__('You are banned'));
-				return true;
-			} else {
-				if(!$this->Auth->login()) {
-					$this->User->saveField('last_visit', date(DATE_ATOM)); // save login time
-					$this->Session->setFlash(__('Invalid username or password, try again'));
+			if (!empty($user)) {
+				Configure::write('Config.language', $user['User']['locale']);
+				if ($user['User']['role'] === 'banned') {
+					$this->Session->setFlash(__('You are banned'));
+					return true;
 				} else {
-					debug($this->referer());
-					if (strpos($this->referer(), 'login') !== false) {
-					    $this->redirect($this->Auth->redirect());
+					if(!$this->Auth->login()) {
+						$this->User->saveField('last_visit', date(DATE_ATOM)); // save login time
+						$this->Session->setFlash(__('Invalid username or password, try again'));
+					} else {
+						debug($this->referer()); //Перевірити!
+						if (strpos($this->referer(), 'login') !== false) {
+						    $this->redirect($this->Auth->redirect());
+						}
+						$this->redirect($this->referer());
 					}
-					$this->redirect($this->referer());
 				}
+			} else {
+				$this->Session->setFlash(__('There is no user with this username'));
 			}
 		}
 	}
@@ -102,6 +110,7 @@ class UsersController extends AppController {
 	}
 
 	public function edit($id = null) {
+		$this->User->recursive = 0;
 		$this->User->id = $id;
 		if (!$this->User->exists()) {
 			throw new NotFoundException(__('Invalid user'));

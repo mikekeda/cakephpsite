@@ -1,6 +1,20 @@
 <!-- File: /app/views/Posts/view.ctp -->
 
 <h1><?php echo $post['Post']['title']?></h1>
+<div class="starRate">
+<div>
+	<?php $ul_classes = array("nostar", "onestar", "twostar", "threestar", "fourstar", "fivestar"); ?>
+	<?php $ul = '<ul id="rate" class="rating ' . $ul_classes[round($post['Post']['rating'])] . '">'; ?>
+	<?php echo $ul; ?>
+		<?php $lis = array("one", "two", "three", "four", "five"); ?>
+		<?php $i = 0; ?>
+		<?php foreach ($lis as $li): ?>
+			<?php $i++; ?>
+			<li class=<?php echo $li; ?>><?php echo $this->Html->link($i . ' Star', array('controller'=>'votes', 'action' => 'add', '?' => array("post_id" => $post['Post']['id'], "user_id" => $this->Session->read('Auth.User.id'), "rating" => $i))); ?></li>
+
+		<?php endforeach; ?>
+	</ul>
+</div>
 
 <p><small>
     <?php echo __('Owner') ?>: <?php echo $this->Html->link($post['User']['username'], array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>

@@ -19,7 +19,7 @@ class CommentsController extends AppController {
 		$this->Comment->id = $id;
 		if (empty($this->data)) {
 			$this->data = $this->Comment->read(array('id', 'user_id','post_id','title','body'));
-			$this->set('user_id', '12');
+			$this->set('user_id', '12'); //потрібно перевірити!
 			debug($this->data);
 		} else {
 			if ($this->Comment->save($this->data)) {
@@ -48,7 +48,6 @@ class CommentsController extends AppController {
 	}
 
 	public function isAuthorized($user) {
-		debug($this->request->params['pass'][0]);
 		if (isset($user['role'])) {
 			// admin can do anything
 			if ($user['role'] === 'admin') {

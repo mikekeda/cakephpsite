@@ -1,4 +1,4 @@
-<!-- File: /app/views/posts/Edit.ctp  (edit links added) -->
+<!-- File: /app/views/users/Edit.ctp  (edit links added) -->
 
 <div class="users form">
 <?php echo $this->Form->create('User', array('type' => 'file')); ?>
