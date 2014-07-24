@@ -6,9 +6,18 @@ class User extends AppModel {
 
 	public $name = 'User';
 
+	public $displayField = 'username';
+
 	public $hasMany = array(
 		'posts' => array(
 			'className' => 'Post',
+			'foreignKey' => 'user_id',
+			'order' => 'created DESC',
+			'limit' => '5',
+			'dependent' => true
+		),
+		'comments' => array(
+			'className' => 'Comment',
 			'foreignKey' => 'user_id',
 			'order' => 'created DESC',
 			'limit' => '5',

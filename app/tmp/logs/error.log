@@ -13506,3 +13506,1412 @@ Stack Trace:
 #13 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #14 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #15 {main}
+2014-07-23 14:22:04 Error: [MissingControllerException] Controller class CommentsController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentsController',
+  'plugin' => NULL,
+)
+Request URL: /firstsite2/comments/add
+Stack Trace:
+#0 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-23 14:31:00 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/add.ctp',
+)
+Request URL: /firstsite2/comments/add
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 14:41:23 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/firstsite2/app/View/Posts/view.ctp, line 23]
+2014-07-23 14:41:23 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 23, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 23, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 14:54:35 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/delete.ctp',
+)
+Request URL: /firstsite2/comments/delete
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 14:54:35 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/delete.ctp',
+)
+Request URL: /firstsite2/comments/delete
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 14:55:01 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/delete.ctp',
+)
+Request URL: /firstsite2/comments/delete
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 14:55:07 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/delete.ctp',
+)
+Request URL: /firstsite2/comments/delete
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 15:02:28 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/edit.ctp',
+)
+Request URL: /firstsite2/comments/edit/6
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 15:02:28 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/edit.ctp',
+)
+Request URL: /firstsite2/comments/edit/6
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 15:02:59 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/edit.ctp',
+)
+Request URL: /firstsite2/comments/edit/6
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 15:03:18 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/edit.ctp',
+)
+Request URL: /firstsite2/comments/edit/6
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-23 15:37:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'I18n__title.content' in 'field list'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1353): DboSource->queryAssociation(Object(Comment), Object(Post), 'belongsTo', 'Post', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 1, Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#8 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#9 /var/www/firstsite2/app/Controller/PostsController.php(19): Model->read()
+#10 [internal function]: PostsController->view('75')
+#11 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-07-23 16:29:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'I18n__title.content' in 'field list'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1353): DboSource->queryAssociation(Object(Comment), Object(Post), 'belongsTo', 'Post', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 1, Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#8 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#9 /var/www/firstsite2/app/Controller/PostsController.php(19): Model->read()
+#10 [internal function]: PostsController->view('75')
+#11 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-07-23 17:19:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:29:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/16
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('16')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:30:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/16
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('16')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:30:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/17
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('17')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:31:57 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/17
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(22): Model->read()
+#8 [internal function]: CommentsController->edit('17')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:33:05 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/12
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(22): Model->read()
+#8 [internal function]: CommentsController->edit('12')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:33:05 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/12
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(22): Model->read()
+#8 [internal function]: CommentsController->edit('12')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:33:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/12
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(20): Model->read()
+#8 [internal function]: CommentsController->edit('12')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:33:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/13
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(20): Model->read()
+#8 [internal function]: CommentsController->edit('13')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:34:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/13
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(22): Model->read()
+#8 [internal function]: CommentsController->edit('13')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:34:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(22): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:35:29 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/15
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('15')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:37:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:38:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>`Comment`.`user_id`) AS  `comments__author` FROM `firstsite2`.`comments` AS `co' at line 1
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:42:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/13
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('13')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:44:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:44:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/15
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('15')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:48:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'field list'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:48:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'field list'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:49:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:49:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments.user_id' in 'where clause'
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:50:03 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:50:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:50:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments.user_id' in 'where clause'
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:52:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '."username" FROM users where id = "comments"."user_id") AS  `Comment__author`, `' at line 1
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:52:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '."username" FROM users where id = "comments"."user_id") AS  `comments__author` F' at line 1
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:53:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users__username' in 'field list'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:53:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users__username' in 'field list'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(18): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-23 17:53:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 17:57:27 Error: [MissingHelperException] Helper class ArrayHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ArrayHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Array')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Array')
+#2 /var/www/firstsite2/app/View/Posts/view.ctp(28): View->__get('Array')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-23 17:58:28 Error: [MissingHelperException] Helper class ArrayHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ArrayHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Array')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Array')
+#2 /var/www/firstsite2/app/View/Posts/view.ctp(28): View->__get('Array')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-23 17:58:51 Error: [MissingHelperException] Helper class ArrayHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ArrayHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Array')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Array')
+#2 /var/www/firstsite2/app/View/Posts/view.ctp(28): View->__get('Array')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-23 18:00:10 Error: Fatal Error (1): Cannot access empty property in [/var/www/firstsite2/lib/Cake/View/View.php, line 856]
+2014-07-23 18:00:10 Error: [FatalErrorException] Cannot access empty property
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/firsts...', 856)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 18:00:22 Error: Fatal Error (1): Cannot access empty property in [/var/www/firstsite2/lib/Cake/View/View.php, line 856]
+2014-07-23 18:00:22 Error: [FatalErrorException] Cannot access empty property
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/firsts...', 856)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 18:02:58 Error: Fatal Error (1): Cannot access empty property in [/var/www/firstsite2/lib/Cake/View/View.php, line 856]
+2014-07-23 18:02:58 Error: [FatalErrorException] Cannot access empty property
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/firsts...', 856)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/firsts...', 856, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 18:07:51 Error: [MissingHelperException] Helper class ArrayHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ArrayHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Array')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Array')
+#2 /var/www/firstsite2/app/View/Posts/view.ctp(24): View->__get('Array')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-23 18:08:53 Error: [MissingHelperException] Helper class ArrayHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ArrayHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Array')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Array')
+#2 /var/www/firstsite2/app/View/Posts/view.ctp(24): View->__get('Array')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-23 18:09:40 Error: [MissingHelperException] Helper class ArrayHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ArrayHelper',
+  'plugin' => false,
+)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Array')
+#1 /var/www/firstsite2/lib/Cake/View/View.php(837): HelperCollection->__isset('Array')
+#2 /var/www/firstsite2/app/View/Posts/view.ctp(25): View->__get('Array')
+#3 /var/www/firstsite2/lib/Cake/View/View.php(948): include('/var/www/firsts...')
+#4 /var/www/firstsite2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/firsts...', Array)
+#5 /var/www/firstsite2/lib/Cake/View/View.php(471): View->_render('/var/www/firsts...')
+#6 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-23 18:10:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/17
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('17')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:33:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:36:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:40:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:42:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 09:42:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 09:43:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:45:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/13
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('13')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:45:17 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/12
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('12')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 09:46:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 09:55:20 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 45324161 bytes) in [/var/www/firstsite2/lib/Cake/Utility/Debugger.php, line 610]
+2014-07-24 09:55:20 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 45324161 bytes)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/firsts...', 610)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/firsts...', 610, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/firsts...', 610, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 09:56:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 09:57:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 09:59:35 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/firstsite2/app/Controller/PostsController.php, line 11]
+2014-07-24 09:59:35 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:00:40 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/firstsite2/app/Controller/PostsController.php, line 11]
+2014-07-24 10:00:40 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:00:42 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/firstsite2/app/Controller/PostsController.php, line 11]
+2014-07-24 10:00:42 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:00:59 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [/var/www/firstsite2/app/Controller/PostsController.php, line 11]
+2014-07-24 10:00:59 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:01:27 Error: Fatal Error (4): syntax error, unexpected 'virtualFields' (T_STRING), expecting variable (T_VARIABLE) in [/var/www/firstsite2/app/Controller/PostsController.php, line 11]
+2014-07-24 10:01:27 Error: [FatalErrorException] syntax error, unexpected 'virtualFields' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:01:41 Error: Fatal Error (4): syntax error, unexpected '[', expecting ',' or ';' in [/var/www/firstsite2/app/Controller/PostsController.php, line 11]
+2014-07-24 10:01:41 Error: [FatalErrorException] syntax error, unexpected '[', expecting ',' or ';'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 11, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:01:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 10:02:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 10:02:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.user_id' in 'where clause'
+Request URL: /firstsite2/posts/view/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1332): DboSource->fetchAll('SELECT `comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'comments', Array, Array, true, Array, 0, Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#7 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#8 /var/www/firstsite2/app/Controller/PostsController.php(20): Model->read()
+#9 [internal function]: PostsController->view('75')
+#10 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-24 10:02:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Comment), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/firstsite2/lib/Cake/Model/Model.php(1596): Model->find('first', Array)
+#7 /var/www/firstsite2/app/Controller/CommentsController.php(21): Model->read()
+#8 [internal function]: CommentsController->edit('14')
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:07:01 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/firstsite2/app/Controller/CommentsController.php, line 21]
+2014-07-24 10:07:01 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /firstsite2/comments/edit/14
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 21, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 21, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:11:55 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:12:36 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:12:45 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:12:50 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:13:54 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:14:00 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:14:30 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:14:36 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:15:13 Error: [CakeException] Unknown status code
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('2')
+#1 /var/www/firstsite2/app/Controller/AppController.php(58): Controller->redirect(Array, '2')
+#2 /var/www/firstsite2/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): AppController->isAuthorized(Array)
+#3 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(465): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#4 /var/www/firstsite2/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#5 [internal function]: AuthComponent->startup(Object(CommentsController))
+#6 /var/www/firstsite2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 /var/www/firstsite2/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-24 10:22:09 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/firstsite2/app/Controller/CommentsController.php, line 61]
+2014-07-24 10:22:09 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 61, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 61, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:22:33 Error: [NotFoundException] Невірний користувач
+Request URL: /firstsite2/users/view/75
+Stack Trace:
+#0 [internal function]: UsersController->view('75')
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-24 10:29:48 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/add.ctp',
+)
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-24 10:30:31 Error: Fatal Error (4): syntax error, unexpected '*' in [/var/www/firstsite2/app/Controller/CommentsController.php, line 42]
+2014-07-24 10:30:31 Error: [FatalErrorException] syntax error, unexpected '*'
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 42, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 42, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:30:48 Error: [MissingViewException] View file "/var/www/firstsite2/app/View/Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/firstsite2/app/View/Comments/add.ctp',
+)
+Request URL: /firstsite2/comments/add/75
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/firstsite2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-24 10:37:45 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/firstsite2/app/Controller/PostsController.php, line 81]
+2014-07-24 10:37:45 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /firstsite2/posts/view/19
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 81, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 81, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:39:13 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/var/www/firstsite2/app/Controller/PostsController.php, line 114]
+2014-07-24 10:39:13 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/firsts...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/firsts...', 114, Array)
+#2 /var/www/firstsite2/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/firsts...', 114, Array)
+#3 /var/www/firstsite2/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-24 10:55:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'desc' in 'order clause'
+Request URL: /firstsite2/
+Stack Trace:
+#0 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /var/www/firstsite2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /var/www/firstsite2/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Post), Array)
+#5 /var/www/firstsite2/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /var/www/firstsite2/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/firstsite2/app/Controller/PostsController.php(64): PaginatorComponent->paginate('Post')
+#8 [internal function]: PostsController->index()
+#9 /var/www/firstsite2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/firstsite2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/firstsite2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

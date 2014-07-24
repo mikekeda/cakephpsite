@@ -5,7 +5,10 @@ class PostsController extends AppController {
 	public $components = array('Paginator');
 
 	public $paginate = array(
-		'limit' => 10
+		'limit' => 10,
+		'order' => array(
+        	'created' => 'desc'
+        )
 	);
 
 	public function beforeFilter() {
@@ -14,16 +17,15 @@ class PostsController extends AppController {
 	}
 
 	function view($id) {
-		$this->loadModel('User');
+		//$this->loadModel('Comment');
         $this->Post->id = $id;
         $post = $this->Post->read();
-        $post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
         $this->set('post', $post);
     }
 
     function delete($id) {
 		if ($this->Post->delete($id)) {
-			$this->Session->setFlash('The post with id: ' . $id . ' has been deleted.');
+			$this->Session->setFlash(__('The post with id: ' . $id . ' has been deleted.'));
 			$this->redirect(array('action' => 'index'));
 		}
 	}
@@ -58,6 +60,7 @@ class PostsController extends AppController {
 	}
 
 	function index($id = 0) {
+		$this->Post->recursive = 0;
 		$this->loadModel('User');
 		$this->Paginator->settings = $this->paginate;
 		$posts = $this->Paginator->paginate('Post');
@@ -80,7 +83,6 @@ class PostsController extends AppController {
 			return true;
 		}
 		//$this->loadModel('User');
-
 		if (isset($user['role'])) {
 			// admin can do anything
 			if ($user['role'] === 'admin') {
@@ -93,7 +95,6 @@ class PostsController extends AppController {
 				}
 				if (in_array($this->action, array('edit', 'delete'))) {
 					$postId = (int) $this->request->params['pass'][0];
-					debug($postId);
 					if ($this->Post->isOwnedBy($postId, $user['id'])) {
 						return true;
 					}
