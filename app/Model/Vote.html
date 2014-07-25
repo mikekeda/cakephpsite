@@ -1,12 +1,11 @@
 <?php
-class Comment extends AppModel {
+class Vote extends AppModel {
 
-	public $name = 'Comment';
+	public $name = 'Vote';
 
-    public $virtualFields = array(
-        'author' => 'SELECT username FROM users where id = user_id',
-        'avatar_file_name' => 'SELECT avatar_file_name FROM users where id = user_id',
-    );
+/*    public $virtualFields = array(
+        'raiting' => 'SELECT AVG(raiting) FROM votes where id = post_id'
+    );*/
 
     public $belongsTo = array(
         'User' => array(
@@ -20,7 +19,7 @@ class Comment extends AppModel {
     );
 
     public $validate = array(
-        'body' => array(
+        'rating' => array(
             'rule' => 'notEmpty'
         ),
         'user_id' => array(
@@ -32,7 +31,7 @@ class Comment extends AppModel {
     );
 
 	public function isOwnedBy($comment, $user) {
-		return $this->field('id', array('id' => $comment, 'user_id' => $user)) !== false;
+		return $this->field('id', array('id' => $vote, 'user_id' => $user)) !== false;
 	}
 
 }

@@ -20,6 +20,8 @@ class PostsController extends AppController {
 		//$this->loadModel('Comment');
         $this->Post->id = $id;
         $post = $this->Post->read();
+        $post['CurentUser'] = array();
+        $post['CurentUser']['Id'] = $this->Session->read('Auth.User.id');
         $this->set('post', $post);
     }
 
@@ -82,7 +84,6 @@ class PostsController extends AppController {
 		if ($this->action === 'index') {
 			return true;
 		}
-		//$this->loadModel('User');
 		if (isset($user['role'])) {
 			// admin can do anything
 			if ($user['role'] === 'admin') {

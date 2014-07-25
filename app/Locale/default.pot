@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-07-23 13:20+0300\n"
+"POT-Creation-Date: 2014-07-25 13:09+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,66 +14,116 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/PostsController.php:72
+#: Controller/CommentsController.php:13
+msgid "The comment with id: "
+msgstr ""
+
+#: Controller/CommentsController.php:41
+msgid "The comment has been saved"
+msgstr ""
+
+#: Controller/CommentsController.php:45
+msgid "The comment could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:30
+msgid "The post with id: "
+msgstr ""
+
+#: Controller/PostsController.php:77
 msgid "Your post has been saved."
 msgstr ""
 
-#: Controller/UsersController.php:33;103;127
+#: Controller/UsersController.php:33;113;137
 msgid "Invalid user"
 msgstr ""
 
-#: Controller/UsersController.php:50
+#: Controller/UsersController.php:53
 msgid "You are banned"
 msgstr ""
 
-#: Controller/UsersController.php:55
+#: Controller/UsersController.php:58
 msgid "Invalid username or password, try again"
 msgstr ""
 
-#: Controller/UsersController.php:77
+#: Controller/UsersController.php:67
+msgid "There is no user with this username"
+msgstr ""
+
+#: Controller/UsersController.php:86
 msgid "Welcome"
 msgstr ""
 
-#: Controller/UsersController.php:82
+#: Controller/UsersController.php:91
 msgid "Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:91;110
+#: Controller/UsersController.php:100;120
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:95;115
+#: Controller/UsersController.php:104;125
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:130
+#: Controller/UsersController.php:140
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:133
+#: Controller/UsersController.php:143
 msgid "User was not deleted"
 msgstr ""
 
-#: View/Layouts/default.ctp:58
+#: Controller/VotesController.php:15
+msgid "The vote has been deleted."
+msgstr ""
+
+#: Controller/VotesController.php:36;38
+msgid "Thanks for your vote!"
+msgstr ""
+
+#: Controller/VotesController.php:43;45
+msgid "The vote could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/VotesController.php:50;52
+msgid "You olredy voted!"
+msgstr ""
+
+#: View/Comments/edit.ctp:3
+msgid "Edit Comment"
+msgstr ""
+
+#: View/Comments/edit.ctp:7
+#: View/Posts/view.ctp:85
+msgid "Text"
+msgstr ""
+
+#: View/Comments/edit.ctp:10
+#: View/Posts/view.ctp:86
+msgid "Save Comment"
+msgstr ""
+
+#: View/Layouts/default.ctp:60
 #: View/Posts/add.ctp:3
 msgid "Add Post"
 msgstr ""
 
-#: View/Layouts/default.ctp:67
+#: View/Layouts/default.ctp:69
 msgid "Logout"
 msgstr ""
 
-#: View/Layouts/default.ctp:70
+#: View/Layouts/default.ctp:72
 #: View/Users/add.ctp:21
 #: View/Users/signup.ctp:6;20
 msgid "Sign up"
 msgstr ""
 
-#: View/Layouts/default.ctp:71
+#: View/Layouts/default.ctp:73
 msgid "Log in"
 msgstr ""
 
-#: View/Layouts/default.ctp:80;81
+#: View/Layouts/default.ctp:82;83
 #: View/Users/login.ctp:13
 msgid "Login"
 msgstr ""
@@ -112,30 +162,31 @@ msgid "Blog posts"
 msgstr ""
 
 #: View/Posts/index.ctp:9
+#: View/Posts/view.ctp:65
 #: View/Users/view.ctp:41
 msgid "Autor"
 msgstr ""
 
 #: View/Posts/index.ctp:10
-#: View/Posts/view.ctp:7
+#: View/Posts/view.ctp:6;66
 #: View/Users/view.ctp:14;42
 msgid "Created"
 msgstr ""
 
 #: View/Posts/index.ctp:13
-#: View/Posts/view.ctp:10
+#: View/Posts/view.ctp:9;69
 #: View/Users/view.ctp:45
 msgid "Delete"
 msgstr ""
 
 #: View/Posts/index.ctp:16
-#: View/Posts/view.ctp:13
+#: View/Posts/view.ctp:12;72
 #: View/Users/view.ctp:48
 msgid "Are you sure?"
 msgstr ""
 
 #: View/Posts/index.ctp:18
-#: View/Posts/view.ctp:15
+#: View/Posts/view.ctp:14;74
 #: View/Users/view.ctp:50
 msgid "Edit"
 msgstr ""
@@ -155,8 +206,36 @@ msgstr ""
 msgid "next"
 msgstr ""
 
-#: View/Posts/view.ctp:6
+#: View/Posts/view.ctp:5
 msgid "Owner"
+msgstr ""
+
+#: View/Posts/view.ctp:24
+msgid "Your rate the material at: "
+msgstr ""
+
+#: View/Posts/view.ctp:27
+msgid "Delete vote"
+msgstr ""
+
+#: View/Posts/view.ctp:30
+msgid "You not vote yet"
+msgstr ""
+
+#: View/Posts/view.ctp:45
+msgid " votes"
+msgstr ""
+
+#: View/Posts/view.ctp:49
+msgid "Nobody has voted yet"
+msgstr ""
+
+#: View/Posts/view.ctp:81
+msgid "Add Comment"
+msgstr ""
+
+#: View/Posts/view.ctp:84
+msgid "Title"
 msgstr ""
 
 #: View/Users/add.ctp:5

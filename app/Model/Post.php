@@ -7,8 +7,11 @@ class Post extends AppModel {
         'Translate' => array('title', 'body')
     );
 
+    public $virtualFields = array(
+        /*'rating' => 'SELECT AVG(rating) FROM votes where post_id = `Post`.`id`',
+        'people_voted' => 'SELECT COUNT(*) FROM votes where post_id = `Post`.`id`'*/
+    );
 
-/*    public $locale = 'eng';*/
     public $translateModel = 'PostI18n';
     public $translateTable = 'Posti18n';
 
@@ -24,9 +27,15 @@ class Post extends AppModel {
             'className' => 'Comment',
             'foreignKey' => 'post_id',
             'order' => 'created DESC',
-            'limit' => '20',
+            'limit' => '10',
             'dependent' => true
-        )
+        )/*,
+        'votes' => array(
+            'className' => 'Vote',
+            'foreignKey' => 'post_id',
+            'limit' => '1',
+            'dependent' => true
+        )*/
     );
 
 /*    public $hasMany = array(
@@ -49,6 +58,27 @@ class Post extends AppModel {
             'rule' => 'notEmpty'
         )
     );
+
+    public function beforeFind($query = array()) {
+        if(!parent::beforeFind($query)) {
+            return false;
+        }
+
+        $this->setupVirtualFields();
+        return true;
+    }
+
+    public function setupVirtualFields() {
+        $user_id = CakeSession::read("Auth.User.id");
+        if(!empty($user_id)) {
+            $this->virtualFields = array_merge($this->virtualFields, array (
+                'rating' => 'SELECT AVG(rating) FROM votes where post_id = `Post`.`id`',
+                'people_voted' => 'SELECT COUNT(*) FROM votes where post_id = `Post`.`id`',
+                'voted' => sprintf('SELECT COUNT(*) FROM votes where post_id = `Post`.`id` AND user_id = %s', $user_id),
+                'rate' => sprintf('SELECT `rating` FROM votes where post_id = `Post`.`id` AND user_id = %s LIMIT 1', $user_id),
+            ));
+        }
+    }
 
 	public function isOwnedBy($post, $user) {
 		return $this->field('id', array('id' => $post, 'user_id' => $user)) !== false;

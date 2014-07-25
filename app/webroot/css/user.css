@@ -26,3 +26,160 @@
 	float: right;
 	display: inline-block;
 }
+
+ /* 'star-rating' component */
+/* the default rating is placed as a background image in the ul */
+/* use the background position according to the table above to display the required images*/
+.rating{
+	width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../img/star-matrix.gif) no-repeat 0 0;
+}
+/* add these classes to the ul to effect the change to the correct number of stars */
+.nostar {background-position:0 0}
+.onestar {background-position:0 -16px}
+.twostar {background-position:0 -32px}
+.threestar {background-position:0 -48px}
+.fourstar {background-position:0 -64px}
+.fivestar {background-position:0 -80px}
+ul.rating li {
+	cursor: pointer;
+ /*ie5 mac doesn't like it if the list is floated\*/
+	float:left;
+	/* end hide*/
+	text-indent:-999em;
+}
+ul.rating li a  {
+	position:absolute;
+	left:0;
+	top:0;
+	width:16px;
+	height:16px;
+	text-decoration:none;
+	z-index: 200;
+}
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:16px;}
+ul.rating li.three a {left:32px;}
+ul.rating li.four a {left:48px;}
+ul.rating li.five a {left:64px;}
+ul.rating li a:hover {
+	z-index:2;
+	width:80px;
+	height:16px;
+	overflow:hidden;
+	left:0;	
+	background: url(../img/star-matrix.gif) no-repeat 0 0
+}
+ul.rating li.one a:hover {background-position:0 -96px;}
+ul.rating li.two a:hover {background-position:0 -112px;}
+ul.rating li.three a:hover {background-position:0 -128px}
+ul.rating li.four a:hover {background-position:0 -144px}
+ul.rating li.five a:hover {background-position:0 -160px}
+
+ul.rating spam {
+	position: absolute;
+	width: 350px;
+	left:86px;
+}
+/* end rating code */
+h3{margin:0 0 2px 0;font-size:110%}
+
+/*coments*/
+div.wrap {
+    width: 90%;
+    margin: 0 auto 1em auto;
+    position: relative; /* the image will be absolutely-positioned relative to this */
+}
+
+div.wrap:first-child {
+    margin-top: 1em; /* just for aesthetic reasons, adjust or remove, to taste */
+}
+
+div.comment {
+    font-size: 1em;
+    position: relative; /* the arrow on the left side of the div positioned relative to this element */
+    margin-left: 60px; /* allows a 10px gutter for the arrow to fit into */
+    border-radius: 0.75em 0.75em 0.75em 0.75em;
+    background-color: #eee;
+    line-height: 1.4em;
+    font-family: Helvetica; /* or whatever... */
+}
+
+div.comment::before { /* requires a fairly modern browser */
+    content: attr(data-owner); /* displays the name of the comment-owner */
+    border-radius: 0.75em 0.75em 0 0;
+    background-color: #eee;
+    display: block;
+    text-indent: 10%; /* adjust to taste */
+    border-bottom: 3px solid #999;
+}
+
+div.comment::after { /* again, requires a fairly modern browser */
+    content: ''; /* this property is necessary, even if only an empty string */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 10px solid transparent;
+    border-right: 10px solid #eee; /* forms the 'arrow' */
+    margin: -10px 0 0 -20px;
+}
+
+div.comment h3 {
+    margin-left: 10px; /* just for aesthetic reasons, adjust or remove, to taste */
+}
+
+div.comment p { /* or whatever, adjust to taste */
+    width: 80%;
+    margin: 0 auto 1em auto;
+    padding-bottom: 1em;
+}
+
+div.wrap img {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    float: left;
+    border-radius: 10px;
+    margin-top: -25px;
+}​
+
+p + ol.postscript {
+    width: 80%;
+    font-size: 0.8em;
+    margin: -0.5em auto 0 auto;
+}
+ol.postscript::after {
+    content: '';
+    height: 0.5em;
+    display: block;
+    clear: both;
+}
+ol.postscript li {
+    float: left;
+    margin-right: 0.5em;
+    list-style-type: none;
+}
+ol.postscript li.date {
+    float: right;
+    margin-right: 10px;
+}
+
+.wrap a:link,
+.wrap a:visited {
+    color: #777;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+.wrap a:hover,
+.wrap a:active,
+.wrap a:focus {
+    color: #f00;
+    border-bottom: 1px solid #f00;
+}​

@@ -33,7 +33,7 @@ App::uses('Controller', 'Controller');
 
 class AppController extends Controller {
 
-	public $helpers = array('Path');
+	public $helpers = array('Path', 'Js' => array('Jquery'));
 
 	public $components = array(
 		'Session',
@@ -48,6 +48,8 @@ class AppController extends Controller {
 		$this->Auth->allow('view', 'changeLanguage');
 	    if ($this->Session->check('Config.language')) {
 			Configure::write('Config.language', $this->Session->read('Config.language'));
+		} else {
+			Configure::write('Config.language', 'eng');
 		}
 	}
 

@@ -22,6 +22,13 @@ class User extends AppModel {
 			'order' => 'created DESC',
 			'limit' => '5',
 			'dependent' => true
+		),
+		'votes' => array(
+			'className' => 'Vote',
+			'foreignKey' => 'user_id',
+			'order' => 'created DESC',
+			'limit' => '5',
+			'dependent' => true
 		)
 	);
 
