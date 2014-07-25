@@ -16,4 +16,11 @@ $( document ).ready(function() {
 		event.preventDefault();
 
 	});
+
+	$( "#SignupForm" ).click(function( event ) {
+		event.preventDefault();
+		var data = $( this ).serializeArray();
+		var t = data['data[User][email]'];
+		alert( $( this ).serialize() );
+	});
 });

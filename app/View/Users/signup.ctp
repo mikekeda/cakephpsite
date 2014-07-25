@@ -1,7 +1,7 @@
 <!-- File: /app/views/posts/Edit.ctp  (edit links added) -->
 
 <div class="users form">
-<?php echo $this->Form->create('User', array('type' => 'file')); ?>
+<?php echo $this->Form->create('User', array('type' => 'file', 'id' => 'SignupForm')); ?>
     <fieldset>
         <legend><?php echo __('Sign up'); ?></legend>
         <?php
@@ -11,7 +11,7 @@
         echo $this->Form->input('name', array('label' => __('Name')));
         echo $this->Form->input('surname', array('label' => __('Surname')));
         echo $this->Form->input('password', array( 'label' => __('Password'), 'maxLength' => 255, 'type'=>'password','required' => 0));
-        echo $this->Form->input('password_confirm', array('label' => __('Confirm Password *'), 'maxLength' => 255, 'title' => 'Confirm password', 'type'=>'password','required' => 0));
+        echo $this->Form->input('password_confirm', array('label' => __('Confirm Password'), 'maxLength' => 255, 'title' => 'Confirm password', 'type'=>'password','required' => 0));
          
  
         /*echo $this->Form->input('role', array(

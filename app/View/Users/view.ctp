@@ -1,8 +1,8 @@
 <!-- File: /app/views/Users/view.ctp  (edit links added) -->
 
 <div class="users form">
-<h1>Users</h1>
-<table>
+<h2><?php echo __('Users Posts'); ?></h2>
+<!-- <table>
     <thead>
         <tr>
             <th>Id</th>
@@ -32,8 +32,7 @@
         </tr>
       
     </tbody>
-</table>
-
+</table> -->
 <?php foreach ($user['posts'] as $post): ?>
 <article>
   <h3><?php echo $this->Html->link($post['title'], array('controller'=>'posts', 'action' => 'view', $post['id']));?></h3>
@@ -56,12 +55,20 @@
 <?php endforeach; ?>
 
 </div>
-<?php $path = $this->Path->pathtoavatar($user['User'], 'thumb'); ?>
-<?php echo $this->Html->image($path, array('alt' => $user['User']['username'])); ?>            
-<?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $user['User']['id'])): ?>
-<br>
-<?php echo $this->Html->link(__('Edit profile', true), array('action'=>'edit', $user['User']['id']) );?>
-<br>
-<?php echo $this->Html->link(__('Delete profile', true), array('action'=>'delete', $user['User']['id']) );?>
-<?php endif; ?>
-<?php unset($user); ?>
+<div id="userinfo">
+    <?php $path = $this->Path->pathtoavatar($user['User'], 'thumb'); ?>
+    <section id="Photo"><?php echo $this->Html->image($path, array('alt' => $user['User']['username'])); ?></section>
+    <section id="Username"><p><?php echo __('Username') ?>: <?php echo $this->Html->link($user['User']['username'], array('action'=>'edit', $user['User']['id']),array('escape' => false) );?></p></section>
+    <?php if ($this->Session->read('Auth.User.username')): ?>
+        <?php $emailto = ' <a href="mailto:' . $user['User']['email'] . '">' . $user['User']['email'] . '</a>'; ?>
+        <section id="Email"><p><?php echo __('Email') ?>: <?php echo $emailto ?></p></section>
+    <?php endif; ?>
+    <section id="Created"><p><?php echo __('Created') ?>: <time><?php echo $this->Time->niceShort($user['User']['created']); ?></time></p></section>
+    <section id="LastVisit"><p><?php echo __('Last visit') ?>: <time><?php echo $this->Time->niceShort($user['User']['last_visit']); ?></time></p></section>
+    <section id="Role"><p><?php echo __('Role') ?>: <?php echo $user['User']['role']; ?></p></section>           
+    <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $user['User']['id'])): ?>
+        <section id="EditProfile"><p><?php echo $this->Html->link(__('Edit profile', true), array('action'=>'edit', $user['User']['id']) );?></p></section>
+        <section id="DeleteProfile"><p><?php echo $this->Html->link(__('Delete profile', true), array('action'=>'delete', $user['User']['id']) );?></p></section>
+    <?php endif; ?>
+    <?php unset($user); ?>
+</div>
