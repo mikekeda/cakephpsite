@@ -4,7 +4,8 @@ class Comment extends AppModel {
 	public $name = 'Comment';
 
     public $virtualFields = array(
-        'author' => 'SELECT username FROM users where id = user_id'
+        'author' => 'SELECT username FROM users where id = user_id',
+        'avatar_file_name' => 'SELECT avatar_file_name FROM users where id = user_id',
     );
 
     public $belongsTo = array(

@@ -14,13 +14,6 @@ class UsersController extends AppController {
 		$this->Auth->allow('login', 'logout', 'signup');
 	}
 
-/*	public function canUploadMedias($model, $id){
-	    if($model == 'User' & $id = $this->Session->read('Auth.User.id')){
-	        return true; // Everyone can edit the medias for their own record
-	    }
-	    return $this->Session->read('Auth.User.role') == 'admin'; // Only admins can upload medias for everything else
-	}*/
-
 	public function index() {
 		$this->User->recursive = 0;
 		$this->Paginator->settings = $this->paginate;
@@ -29,9 +22,8 @@ class UsersController extends AppController {
 	}
 
 	public function view($id = null) {
-		$this->User->recursive = 0; //Доробити відображення постів користувача у профілі!
+		$this->loadModel('Post');
 		$this->User->id = $id;
-		debug($this->User->read());
 		if (!$this->User->exists()) {
 			throw new NotFoundException(__('Invalid user'));
 		}
@@ -59,7 +51,6 @@ class UsersController extends AppController {
 						$this->User->saveField('last_visit', date(DATE_ATOM)); // save login time
 						$this->Session->setFlash(__('Invalid username or password, try again'));
 					} else {
-						debug($this->referer()); //Перевірити!
 						if (strpos($this->referer(), 'login') !== false) {
 						    $this->redirect($this->Auth->redirect());
 						}

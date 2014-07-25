@@ -1,17 +1,19 @@
 $( document ).ready(function() {
 	$( "#rate > li" ).click(function( event ) {
-		var index = $( "li" ).index( this ) - 1;
-		alert( index );
+		var vote = $( "li" ).index( this ) - 1;
+		var s = $(this)[0]["baseURI"].split('/')
+		var post = s[s.length-1];
 
 		$.ajax({
-		    url: '/votes/'+index,
-		    cache: false,
-		    type: 'GET',
-		    dataType: 'HTML',
-		    success: function (data) {
-		    	alert( data );
-		    }
+			type:'GET',
+			url:'/firstsite2/votes/add',
+			data:"post_id=" + post + "&rating="+vote,
+			success: function(data) {
+				alert( data );
+			}
 		});
+
+		event.preventDefault();
 
 	});
 });

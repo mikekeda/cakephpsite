@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-07-23 13:20+0300\n"
-"PO-Revision-Date: 2014-07-23 13:23+0300\n"
+"POT-Creation-Date: 2014-07-25 13:09+0300\n"
+"PO-Revision-Date: 2014-07-25 13:10+0300\n"
 "Last-Translator: Mihailo <mriynuk@gmail.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -14,64 +14,117 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: Controller/PostsController.php:72
+#: Controller/CommentsController.php:13
+msgid "The comment with id: "
+msgstr "Коментар з id:"
+
+#: Controller/CommentsController.php:41
+#, fuzzy
+msgid "The comment has been saved"
+msgstr "Користувач збережений"
+
+#: Controller/CommentsController.php:45
+#, fuzzy
+msgid "The comment could not be saved. Please, try again."
+msgstr "Користувач не може бути збережений, спробуйте знову."
+
+#: Controller/PostsController.php:30
+msgid "The post with id: "
+msgstr "Пост з id:"
+
+#: Controller/PostsController.php:77
 msgid "Your post has been saved."
 msgstr "Ваш пост збережений"
 
-#: Controller/UsersController.php:33;103;127
+#: Controller/UsersController.php:33;113;137
 msgid "Invalid user"
 msgstr "Невірний користувач"
 
-#: Controller/UsersController.php:50
+#: Controller/UsersController.php:53
 msgid "You are banned"
 msgstr "Ви забанені"
 
-#: Controller/UsersController.php:55
+#: Controller/UsersController.php:58
 msgid "Invalid username or password, try again"
 msgstr "Невірне ім'я користувач або пароль, спробуйте знову"
 
-#: Controller/UsersController.php:77
+#: Controller/UsersController.php:67
+msgid "There is no user with this username"
+msgstr "Не знайдено користувача з таким ніком"
+
+#: Controller/UsersController.php:86
 msgid "Welcome"
 msgstr "Вітаємо"
 
-#: Controller/UsersController.php:82
+#: Controller/UsersController.php:91
 msgid "Please, try again."
 msgstr "Будь ласка спробуйте знову."
 
-#: Controller/UsersController.php:91;110
+#: Controller/UsersController.php:100;120
 msgid "The user has been saved"
 msgstr "Користувач збережений"
 
-#: Controller/UsersController.php:95;115
+#: Controller/UsersController.php:104;125
 msgid "The user could not be saved. Please, try again."
 msgstr "Користувач не може бути збережений, спробуйте знову."
 
-#: Controller/UsersController.php:130
+#: Controller/UsersController.php:140
 msgid "User deleted"
 msgstr "Користувач видалений"
 
-#: Controller/UsersController.php:133
+#: Controller/UsersController.php:143
 msgid "User was not deleted"
 msgstr "Користувач не був видалений"
 
-#: View/Layouts/default.ctp:58 View/Posts/add.ctp:3
+#: Controller/VotesController.php:15
+msgid "The vote has been deleted."
+msgstr "Голос був видалений."
+
+#: Controller/VotesController.php:36;38
+msgid "Thanks for your vote!"
+msgstr "Дякуємо за ваш голос!"
+
+#: Controller/VotesController.php:43;45
+msgid "The vote could not be saved. Please, try again."
+msgstr "Голос не може бути збережений. Будь ласка, спробуйте знову."
+
+#: Controller/VotesController.php:50;52
+msgid "You olredy voted!"
+msgstr "Ви вже голосували!"
+
+#: View/Comments/edit.ctp:3
+#, fuzzy
+msgid "Edit Comment"
+msgstr "Редагувати запис"
+
+#: View/Comments/edit.ctp:7 View/Posts/view.ctp:85
+#, fuzzy
+msgid "Text"
+msgstr "Текст (англійською)"
+
+#: View/Comments/edit.ctp:10 View/Posts/view.ctp:86
+#, fuzzy
+msgid "Save Comment"
+msgstr "Зберегти запис"
+
+#: View/Layouts/default.ctp:60 View/Posts/add.ctp:3
 msgid "Add Post"
 msgstr "Додати запис"
 
-#: View/Layouts/default.ctp:67
+#: View/Layouts/default.ctp:69
 msgid "Logout"
 msgstr "Вийти"
 
-#: View/Layouts/default.ctp:70 View/Users/add.ctp:21
+#: View/Layouts/default.ctp:72 View/Users/add.ctp:21
 #: View/Users/signup.ctp:6;20
 msgid "Sign up"
 msgstr "Зареєструватися"
 
-#: View/Layouts/default.ctp:71
+#: View/Layouts/default.ctp:73
 msgid "Log in"
 msgstr "Увійти"
 
-#: View/Layouts/default.ctp:80;81 View/Users/login.ctp:13
+#: View/Layouts/default.ctp:82;83 View/Users/login.ctp:13
 msgid "Login"
 msgstr "Увійти"
 
@@ -103,23 +156,23 @@ msgstr "Редагувати запис"
 msgid "Blog posts"
 msgstr "Записи блогів"
 
-#: View/Posts/index.ctp:9 View/Users/view.ctp:41
+#: View/Posts/index.ctp:9 View/Posts/view.ctp:65 View/Users/view.ctp:41
 msgid "Autor"
 msgstr "Автор"
 
-#: View/Posts/index.ctp:10 View/Posts/view.ctp:7 View/Users/view.ctp:14;42
+#: View/Posts/index.ctp:10 View/Posts/view.ctp:6;66 View/Users/view.ctp:14;42
 msgid "Created"
 msgstr "Створено"
 
-#: View/Posts/index.ctp:13 View/Posts/view.ctp:10 View/Users/view.ctp:45
+#: View/Posts/index.ctp:13 View/Posts/view.ctp:9;69 View/Users/view.ctp:45
 msgid "Delete"
 msgstr "Видалити"
 
-#: View/Posts/index.ctp:16 View/Posts/view.ctp:13 View/Users/view.ctp:48
+#: View/Posts/index.ctp:16 View/Posts/view.ctp:12;72 View/Users/view.ctp:48
 msgid "Are you sure?"
 msgstr "Ви впевнені?"
 
-#: View/Posts/index.ctp:18 View/Posts/view.ctp:15 View/Users/view.ctp:50
+#: View/Posts/index.ctp:18 View/Posts/view.ctp:14;74 View/Users/view.ctp:50
 msgid "Edit"
 msgstr "Редагувати"
 
@@ -135,9 +188,38 @@ msgstr "Попередня"
 msgid "next"
 msgstr "Наступна"
 
-#: View/Posts/view.ctp:6
+#: View/Posts/view.ctp:5
 msgid "Owner"
 msgstr "Власник"
+
+#: View/Posts/view.ctp:24
+msgid "Your rate the material at: "
+msgstr "Ваша оцінка матеріалу: "
+
+#: View/Posts/view.ctp:27
+msgid "Delete vote"
+msgstr "Видалити голос"
+
+#: View/Posts/view.ctp:30
+msgid "You not vote yet"
+msgstr "Ви ще не голосували"
+
+#: View/Posts/view.ctp:45
+msgid " votes"
+msgstr "голосів"
+
+#: View/Posts/view.ctp:49
+msgid "Nobody has voted yet"
+msgstr "За цей метріал ще ніхто не голосував."
+
+#: View/Posts/view.ctp:81
+msgid "Add Comment"
+msgstr "Додати коментар"
+
+#: View/Posts/view.ctp:84
+#, fuzzy
+msgid "Title"
+msgstr "Заголовок (англійською)"
 
 #: View/Users/add.ctp:5
 msgid "Add user"
@@ -787,3 +869,117 @@ msgstr ""
 #: webroot/test.php:93
 msgid "Debug setting does not allow access to this url."
 msgstr ""
+
+#~ msgid "The vote with id: "
+#~ msgstr "Голос з id:"
+
+#, fuzzy
+#~ msgid "Permission was not denied."
+#~ msgstr "Користувач не був видалений"
+
+#, fuzzy
+#~ msgid "Permission was not inherited."
+#~ msgstr "Користувач не був видалений"
+
+#, fuzzy
+#~ msgid "%s is not a valid model"
+#~ msgstr "Будь ласка введіть коректну роль"
+
+#, fuzzy
+#~ msgid "Please verify that you selected a valid model"
+#~ msgstr "Будь ласка введіть коректну роль"
+
+#~ msgid "Name: %s"
+#~ msgstr "Ім'я: %s"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "Ім'я"
+
+#, fuzzy
+#~ msgid "User:"
+#~ msgstr "Ім'я користувача"
+
+#, fuzzy
+#~ msgid "The directory path you supplied was not found. Please try again."
+#~ msgstr "Користувач не може бути збережений, спробуйте знову."
+
+#, fuzzy
+#~ msgid "Please make a valid selection."
+#~ msgstr "Будь ласка введіть коректну роль"
+
+#, fuzzy
+#~ msgid "The directory path you supplied was empty. Please try again."
+#~ msgstr "Користувач не може бути збережений, спробуйте знову."
+
+#, fuzzy
+#~ msgid "The action name you supplied was empty. Please try again."
+#~ msgstr "Користувач не може бути збережений, спробуйте знову."
+
+#, fuzzy
+#~ msgid "Invalid %s"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "The %1$s has been %2$s"
+#~ msgstr "Користувач збережений"
+
+#, fuzzy
+#~ msgid "Edit %s"
+#~ msgstr "Редагувати запис"
+
+#, fuzzy
+#~ msgid "Delete %s"
+#~ msgstr "Видалити"
+
+#, fuzzy
+#~ msgid "Invalid type name"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "The request has been black-holed"
+#~ msgstr "Користувач збережений"
+
+#, fuzzy
+#~ msgid "The eventKey variable is required"
+#~ msgstr "Потрібна поштова скринька"
+
+#, fuzzy
+#~ msgid "Invalid key name"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "%s - Invalid node"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "Invalid schema object"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "Invalid status code"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "Invalid resource."
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "Invalid response."
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "%s created"
+#~ msgstr "Створено"
+
+#, fuzzy
+#~ msgid "Invalid input."
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "Invalid array"
+#~ msgstr "Невірний користувач"
+
+#, fuzzy
+#~ msgid "Fatal Error"
+#~ msgstr "Помилка"

@@ -20,7 +20,6 @@ class CommentsController extends AppController {
 		if (empty($this->data)) {
 			$this->data = $this->Comment->read(array('id', 'user_id','post_id','title','body'));
 			$this->set('user_id', '12'); //потрібно перевірити!
-			debug($this->data);
 		} else {
 			if ($this->Comment->save($this->data)) {
 				$this->Session->setFlash('Your comment has been updated.');
