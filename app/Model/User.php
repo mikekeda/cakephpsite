@@ -104,12 +104,12 @@ class User extends AppModel {
         	)
 		),
 
-/*		'password' => array(     
+		'password' => array(     
 		    'minLength' => array(
 		        'rule' => array('minLength', 2),
 		        'message' => 'Your password must be at least 2 characters long.'
 		    )
-		),*/
+		),
 
 	    'password_confirm' => array(
 	        'identicalFieldValues' => array(

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2014-07-25 17:27+0300\n"
-"PO-Revision-Date: 2014-07-25 17:28+0300\n"
+"PO-Revision-Date: 2014-07-28 10:42+0300\n"
 "Last-Translator: Mihailo <mriynuk@gmail.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -242,7 +242,7 @@ msgstr "Призвіще"
 
 #: View/Users/add.ctp:14 View/Users/signup.ctp:13
 msgid "Password"
-msgstr "Пороль"
+msgstr "Пароль"
 
 #: View/Users/add.ctp:15
 msgid "Confirm Password *"

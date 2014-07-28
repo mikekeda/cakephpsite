@@ -36,6 +36,7 @@ $CompanyName = __("World of Blogs");
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 		echo $this->Html->script('jquery');
+		echo $this->Html->script('jquery.validate');
 		echo $this->Html->script('myjs');
 	?>
 </head>

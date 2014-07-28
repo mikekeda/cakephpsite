@@ -74,9 +74,15 @@ class UsersController extends AppController {
 
 		//if ($this->request->is('post')) {
 		if (!empty($this->data)) {
+			$avatar = $this->request->data['User']['avatar'];
+			unset($this->request->data['User']['avatar']);
+			$this->request->data = array('User' => $this->request->data);
 			$this->request->data['User']['role'] = 'user';
+			$this->request->data['User']['avatar'] = $avatar;
+			debug($this->request->data);
+			debug($this->data['User']);
 			$this->User->create();
-			if ($this->User->save($this->data)) {
+			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('Welcome'));
 				$this->Auth->login();
 				return $this->redirect(array('action' => 'index'));
