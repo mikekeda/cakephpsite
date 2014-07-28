@@ -33,6 +33,8 @@ App::uses('Controller', 'Controller');
 
 class AppController extends Controller {
 
+	public $helpers = array('Path', 'Js' => array('Jquery'));
+
 	public $components = array(
 		'Session',
 		'Auth' => array(
@@ -43,14 +45,56 @@ class AppController extends Controller {
 	);
 
 	public function beforeFilter() {
-		$this->Auth->allow('index', 'view');
+		$this->Auth->allow('view', 'changeLanguage');
+	    if ($this->Session->check('Config.language')) {
+			Configure::write('Config.language', $this->Session->read('Config.language'));
+		} else {
+			Configure::write('Config.language', 'eng');
+		}
 	}
 
 	public function isAuthorized($user) {
-		if (isset($user[’role’]) && $user[’role’] === ’admin’) {
+		if (isset($user['role']) && $user['role'] === 'admin') {
 			return true;
 		}
+		$this->redirect(array('controller' => 'users', 'action' => 'view'), $user['id']);
 		return false;
 	}
 
+	public function changeLanguage($lang){
+		if(empty($lang)){
+			$lang = 'eng';
+		}
+		debug($lang);
+        if($lang == 'eng'){
+            $this->Session->write('Config.language', 'eng');
+            Configure::write('Config.language', 'eng');
+            setlocale(LC_ALL,'en_US.utf8');
+            $locale = 'eng';
+        }
+
+        else if($lang == 'ukr'){
+            $this->Session->write('Config.language', 'ukr');
+            Configure::write('Config.language', 'ukr');
+            putenv ("LC_ALL=uk_UK");
+            setlocale (LC_ALL, "uk_UA.utf8");
+            $locale = 'ukr';
+        }
+        //in order to redirect the user to the page from which it was called
+        $this->redirect($this->referer());
+    }
+
 }
+
+/*
+function setLanguage() {
+	if(!isset($this->params['lang'])) $this->params['lang'] = 'ro';
+	$lang = $this->params['lang'];
+	App::import('Core', 'i18n');
+	$I18n =& I18n::getInstance();
+	$I18n->l10n->get($lang);
+	foreach (Configure::read('Config.languages') as $lang => $locale) {
+		if($lang == $this->params['lang'])
+		$this->params['locale'] = $locale['locale'];
+	}
+}*/

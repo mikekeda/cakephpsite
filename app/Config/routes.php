@@ -26,6 +26,12 @@
  */
 
 	Router::connect('/', array('controller' => 'posts', 'action' => 'index'));
+
+	/*Router::connect('/:language/:controller/:action/*', array(), array('language' => '[a-z]{3}'));*/
+
+/*	Router::connect('/:language/:controller/:action/*',
+	    array(),
+	    array('language' => '[a-z]{3}'));*/
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

@@ -26,6 +26,9 @@
 Cache::config('default', array('engine' => 'File'));
 
 CakePlugin::load('DebugKit');
+CakePlugin::load('UploadPack');
+
+//CakePlugin::loadAll();
 
 /**
  * The settings below can be used to set additional paths to models, views and controllers.

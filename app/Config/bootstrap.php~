@@ -25,6 +25,17 @@
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
 
+CakePlugin::load('DebugKit');
+CakePlugin::load('UploadPack');
+
+define('DEFAULT_LANGUAGE', 'eng').
+
+Configure::write('Config.languages', array(
+	'eng' => 'English version',
+	'ukr' => 'Українська версія'));
+
+//CakePlugin::loadAll();
+
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
  *

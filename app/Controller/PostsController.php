@@ -2,32 +2,59 @@
 
 class PostsController extends AppController {
 
+	public $components = array('Paginator');
+
+	public $paginate = array(
+		'limit' => 10,
+		'order' => array(
+        	'created' => 'desc'
+        )
+	);
+
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow('index', 'view');
 	}
 
 	function view($id) {
-		$this->loadModel('User');
+		//$this->loadModel('Comment');
         $this->Post->id = $id;
         $post = $this->Post->read();
-        $post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
+        $post['CurentUser'] = array();
+        $post['CurentUser']['Id'] = $this->Session->read('Auth.User.id');
         $this->set('post', $post);
     }
 
     function delete($id) {
 		if ($this->Post->delete($id)) {
-			$this->Session->setFlash('The post with id: ' . $id . ' has been deleted.');
+			$this->Session->setFlash(__('The post with id: ' . $id . ' has been deleted.'));
 			$this->redirect(array('action' => 'index'));
 		}
 	}
 	
 	function edit($id = null) {
-		$this->Post->id = $id;
+		$this->loadModel('PostI18n');
+		$this->Post->id = $id;  
+		/*$this->Post->locale = array('eng','ukr');*/
 		if (empty($this->data)) {
 			$this->data = $this->Post->read();
+			$trans = $this->PostI18n->find('all', array(
+		        'conditions' => array('foreign_key' => $id)
+		    ));
+		    if (!empty($trans)) {
+			    $this->request->data['Post'][$trans[0]['PostI18n']['field']] = $arrayName = array();
+			    $this->request->data['Post'][$trans[2]['PostI18n']['field']] = $arrayName = array();
+
+			    $this->request->data['Post'][$trans[0]['PostI18n']['field']][$trans[0]['PostI18n']['locale']] = $trans[0]['PostI18n']['content'];
+			    $this->request->data['Post'][$trans[1]['PostI18n']['field']][$trans[1]['PostI18n']['locale']] = $trans[1]['PostI18n']['content'];
+			    $this->request->data['Post'][$trans[2]['PostI18n']['field']][$trans[2]['PostI18n']['locale']] = $trans[2]['PostI18n']['content'];
+			    $this->request->data['Post'][$trans[3]['PostI18n']['field']][$trans[3]['PostI18n']['locale']] = $trans[3]['PostI18n']['content'];
+			} else {
+				$this->request->data['Post']['title']['eng'] = array($this->data['Post']['title']);
+				$this->request->data['Post']['body']['eng'] = array($this->data['Post']['body']);
+			}
 		} else {
-			if ($this->Post->save($this->data)) {
+			if ($this->Post->saveMany($this->data)) {
 				$this->Session->setFlash('Your post has been updated.');
 				$this->redirect(array('action' => 'index'));
 			}
@@ -35,26 +62,18 @@ class PostsController extends AppController {
 	}
 
 	function index($id = 0) {
-		$articlesonpage = 10;
+		$this->Post->recursive = 0;
 		$this->loadModel('User');
-		$posts = $this->Post->find('all',array(
-          'limit'=>$articlesonpage,
-          'offset' => $id*$articlesonpage
-		));
-		$totalpages = ceil($this->Post->find('count') / $articlesonpage);
-		$this->set('curentpage', $id);
-		$this->set('totalpages', $totalpages);
-		foreach ( $posts as &$post ) {
-        	$post['Post']['owner'] = $this->User->find('first', array('conditions' => array('id' => $post['Post']['user_id'])));
-		}
+		$this->Paginator->settings = $this->paginate;
+		$posts = $this->Paginator->paginate('Post');
 		$this->set('posts', $posts);
     }
 
 	public function add() {
 		if ($this->request->is('post')) {
-			//Added this line
+			$this->Post->locale = array('eng','ukr');
 			$this->request->data['Post']['user_id'] = $this->Auth->user('id');
-			if ($this->Post->save($this->request->data)) {
+			if ($this->Post->saveMany(array($this->request->data))) {
 				$this->Session->setFlash(__('Your post has been saved.'));
 				$this->redirect(array('action' => 'view', $this->Post->id));
 			}
@@ -62,17 +81,33 @@ class PostsController extends AppController {
 	}
 
 	public function isAuthorized($user) {
-		if ($this->action === 'add') {
+		if ($this->action === 'index') {
 			return true;
 		}
-
-		if (in_array($this->action, array('edit', 'delete'))) {
-			$postId = (int) $this->request->params['pass'][0];
-			if ($this->Post->isOwnedBy($postId, $user['id'])) {
+		if (isset($user['role'])) {
+			// admin can do anything
+			if ($user['role'] === 'admin') {
 				return true;
 			}
+
+			if ($user['role'] === 'editor') {
+				if ($this->action === 'add') {
+					return true;
+				}
+				if (in_array($this->action, array('edit', 'delete'))) {
+					$postId = (int) $this->request->params['pass'][0];
+					if ($this->Post->isOwnedBy($postId, $user['id'])) {
+						return true;
+					}
+				}
+
+			}
 		}
-		return parent::isAuthorized($user);
+		if (isset($this->request->params['pass'][0])) {
+			$this->redirect(array('action' => 'view', $this->request->params['pass'][0]));
+		} else {
+			$this->redirect(array('action' => 'index', 'home'));
+		}
 	}
 
 }
