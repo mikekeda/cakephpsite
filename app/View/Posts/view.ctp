@@ -1,8 +1,8 @@
 <!-- File: /app/views/Posts/view.ctp -->
-
-<h1><?php echo $post['Post']['title']?></h1>
+<article>
+<h2><?php echo $post['Post']['title']?></h2>
 <p><small>
-    <?php echo __('Owner') ?>: <?php echo $this->Html->link($post['User']['username'], array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>
+    <?php echo __('Autor') ?>: <?php echo $this->Html->link($post['User']['username'], array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>
     <?php echo __('Created') ?>: <?php echo $post['Post']['created']?>
     <?php if ($this->Session->read('Auth.User.role') === 'admin' or ($this->Session->read('Auth.User.id') === $post['User']['id'])): ?>
 	<?php echo $this->Html->link(
@@ -16,7 +16,6 @@
 </small></p>
 
 <div class="starRate">
-<div>
 	<?php $ul_classes = array("nostar", "onestar", "twostar", "threestar", "fourstar", "fivestar"); ?>
 	<?php $ul = '<ul id="rate" class="rating ' . $ul_classes[round($post['Post']['rating'])] . '">'; ?>
 	<?php
@@ -54,6 +53,7 @@
 </div>
 
 <?php echo $this->Text->autoParagraph($post['Post']['body']);?>
+</article>
 
 <hr>
 <br>
@@ -98,6 +98,7 @@
 
 <?php endforeach; ?>
 <?php if($this->Session->read('Auth.User.username')): ?>
+<div class="wrap">
 <h3><?php echo __('Add Comment'); ?></h3>
 <?php
 	echo $this->Form->create('Comment', array('url' => array('controller' => 'comments', 'action' => 'add', $post['Post']['id'])));
@@ -105,4 +106,5 @@
 	echo $this->Form->input('body', array('rows' => '3', 'label' => __('Text')));
 	echo $this->Form->end(__('Save Comment'));
 ?>
+</div>
 <?php endif ?>

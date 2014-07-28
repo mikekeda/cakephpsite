@@ -4,7 +4,7 @@
 
 <?php foreach ($posts as $post): ?>
 <article>
-  <h3><?php echo $this->Html->link($post['Post']['title'], array('action' => 'view', $post['Post']['id']));?></h3>
+  <h2><?php echo $this->Html->link($post['Post']['title'], array('action' => 'view', $post['Post']['id']));?></h2>
   <p><small>
     <?php echo __('Autor'); ?>: <?php echo $this->Html->link($post['User']['username'], array('controller'=>'users', 'action' => 'view', $post['Post']['user_id']));?>
     <?php echo __('Created'); ?>: <?php echo $post['Post']['created']?>

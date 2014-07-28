@@ -1,16 +1,47 @@
-.link {
+nav {
 	float: right;
 	display: block;
-	clear: right;
+	clear: left;
+}
+
+#header h1 {
+	display: block;
+	clear: none;
+	font-size: 24px;
+	background: url('../favicon.png') no-repeat scroll left center #003D4C;
+}
+
+.loginform fieldset {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+
+.loginform input[type=submit] {
+	margin-bottom: 5px;
+}
+
+#minemenu {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	float: right;
+	display: block;
+	clear: none;
+}
+
+.link {
+	margin: 10px;
 }
 
 .flags li {
+	margin: 0 5px;
 	list-style-type: none;
 	display: inline-block;
 }
 
 .flags {
 	float: right;
+	clear: left;
 	display: inline-block;
 	list-style-type: none;
 }
@@ -25,6 +56,10 @@
 	clear: none !important;
 	float: right;
 	display: inline-block;
+}
+
+article {
+	margin: 30px;
 }
 
  /* 'star-rating' component */

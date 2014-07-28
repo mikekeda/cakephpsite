@@ -12,7 +12,7 @@
         echo $this->Form->input('name');
         echo $this->Form->input('surname');
         echo $this->Form->input('password', array( 'label' => __('New Password (leave empty if you do not want to change)'), 'maxLength' => 255, 'type'=>'password','required' => 0));
-        echo $this->Form->input('password_confirm', array('label' => 'Confirm New Password *', 'maxLength' => 255, 'title' => __('Confirm New password'), 'type'=>'password','required' => 0));
+        echo $this->Form->input('password_confirm', array('label' => __('Confirm New Password'), 'maxLength' => 255, 'title' => __('Confirm New password'), 'type'=>'password','required' => 0));
         if ($this->Session->read('Auth.User.role') === 'admin') {
             echo $this->Form->input('role', array(
                 'options' => array('admin' => __('admin'), 'editor' => __('editor'), 'user' => __('user'), 'banned' => __('banned'))
